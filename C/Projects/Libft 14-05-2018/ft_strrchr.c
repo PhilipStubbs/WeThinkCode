@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <string.h>
 
-
 char *ft_strrchr(const char *str, int c)
 {
 	char *p1;
@@ -33,7 +32,7 @@ char *ft_strrchr(const char *str, int c)
 
 // int main () {
 //    const char str[] = "This is a test";
-//    const char ch = 'e';
+//    const char ch = ' ';
 //    char *ret;
 
 //    ret = ft_strrchr(str, ch);
