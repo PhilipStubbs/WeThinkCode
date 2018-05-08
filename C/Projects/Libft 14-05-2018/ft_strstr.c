@@ -11,6 +11,7 @@ char *ft_strstr(const char *haystack, const char *needle)
 	
 	p2 = (char*)needle;
 	p1 = ft_strchr(haystack, *p2);
+	i = 0;
 	if (p1 == NULL)
 		return (p1);
 	while(1)
@@ -23,6 +24,8 @@ char *ft_strstr(const char *haystack, const char *needle)
 		}
 		else
 		{	
+			if(p1[i] == '\0')
+				return(p1 = NULL);
 			i = 0;
 			p1++;
 		}
@@ -35,7 +38,7 @@ char *ft_strstr(const char *haystack, const char *needle)
 //    const char needle[10] = "is";
 //    char *ret;
 
-//    ret = ft_strstr(haystack, needle);
+//    ret = strstr(haystack, needle);
 
 //    printf("The substring is: %s\n", ret);
    
