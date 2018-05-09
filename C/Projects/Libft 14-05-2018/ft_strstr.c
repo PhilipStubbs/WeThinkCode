@@ -1,8 +1,6 @@
 #include <stdio.h>
 #include <string.h>
 
-char *ft_strchr(const char *str, int c);
-
 char *ft_strstr(const char *haystack, const char *needle)
 {
 	char *p1;
@@ -10,10 +8,8 @@ char *ft_strstr(const char *haystack, const char *needle)
 	int i;
 	
 	p2 = (char*)needle;
-	p1 = ft_strchr(haystack, *p2);
+	p1 = (char*)haystack;
 	i = 0;
-	if (p1 == NULL)
-		return (p1);
 	while(1)
 	{
 		if(p2[i] == p1[i])
@@ -24,9 +20,9 @@ char *ft_strstr(const char *haystack, const char *needle)
 		}
 		else
 		{	
+			i = 0;
 			if(p1[i] == '\0')
 				return(p1 = NULL);
-			i = 0;
 			p1++;
 		}
 	}
@@ -35,7 +31,7 @@ char *ft_strstr(const char *haystack, const char *needle)
 
 // int main () {
 //    const char haystack[20] = "This is a test";
-//    const char needle[10] = "is";
+//    const char needle[10] = "esf";
 //    char *ret;
 
 //    ret = strstr(haystack, needle);

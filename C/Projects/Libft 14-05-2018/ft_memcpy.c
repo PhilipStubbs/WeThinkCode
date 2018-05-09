@@ -22,14 +22,14 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 
 
 
-int main () {
-   const char src[50] = "This is a test!";
-   char dest[50];
+// int main () {
+//    const char src[50] = "This is a test!";
+//    char dest[50];
 
 
-   ft_memcpy(dest, src, strlen(src)+1);
+//    ft_memcpy(dest, src, strlen(src)+1);
 
-   printf("After memcpy dest = %s\n", dest);
+//    printf("After memcpy dest = %s\n", dest);
    
-   return(0);
-}
+//    return(0);
+// }
