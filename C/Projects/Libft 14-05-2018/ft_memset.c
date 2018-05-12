@@ -3,16 +3,12 @@
 
 void	*ft_memset(void *str, int c, size_t n)
 {
-	int i;
-	int id;
-	unsigned char *p;
+	char *p;
 
-	p = str;
-	id = n;
-	i = 0;
-	while(i <= id)
+	p = (char*)str;
+	while(n--)
 	{
-		p[i++] = c;
+		p[n] = c;
 	}
 	return(p);
 }
@@ -27,7 +23,7 @@ void	*ft_memset(void *str, int c, size_t n)
 //    strcpy(str,"This is string.h library function");
 //    puts(str);
 
-//    ft_memset(str,'$',7);
+//    memset(str,'$',7);
 //    puts(str);
    
 //    return(0);
