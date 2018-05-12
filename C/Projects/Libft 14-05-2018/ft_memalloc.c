@@ -1,50 +1,27 @@
 #include <stdlib.h>
-#include <stdio.h>
-#include <string.h>
-
-void	*ft_memset(void *str, int c, size_t n)
-{
-	int i;
-	int id;
-	unsigned char *ucp;
-
-	ucp = str;
-	id = n;
-	i = 0;
-	while(i <= id)
-	{
-		ucp[i] = c;
-		printf("%c", ucp[i]);
-		i++;
-	}
-	return(ucp);
-
-}
+#include "libft.h"
 
 void *ft_memalloc(size_t size)
 {	
-	size_t *p;
-	// size_t i;
+	void *p;
 
-	// i = 0;
-	if (size <= 0) //dont forget to check for things that arent ints
+	if ((p = (void*)malloc(size)) == NULL) 
 	{
 		return (NULL);
 	}
 	else
 	{
-		p = malloc(size);
-		ft_memset(p, '0', size);
+		p = (void*)malloc(size);
+		ft_memset(p, '\0', size);
 		return(p);
 	}
-	
 }
 
-int main()
-{	
-	size_t *p = ft_memalloc(5);
+// int main()
+// {	
+	// size_t *p = ft_memalloc(5);
 	// int a = ft_memalloc(5)
-	printf("%ln", p);
+	// printf("%ln", p);
 
-	return(1);
-}
+// 	return(1);
+// }

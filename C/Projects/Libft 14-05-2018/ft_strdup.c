@@ -1,4 +1,7 @@
-void	*ft_memalloc(int size);
+#include <stdlib.h>
+
+// #include "libft.h"
+// void	*ft_memalloc(int size);
 int ft_strlen(const char *str);
 
 char *strdup(const char *src)
@@ -11,7 +14,7 @@ char *strdup(const char *src)
 	p1 =(char*)src;
 	i = 0;
 	size = ft_strlen(src);
-	rstr = ft_memalloc(size);
+	rstr = malloc(size);
 	while(i <= size)
 	{
 		rstr[i] = p1[i];

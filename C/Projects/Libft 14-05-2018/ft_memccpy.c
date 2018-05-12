@@ -9,7 +9,6 @@ void *ft_memccpy(void *dest, const void *src, int c, size_t n)
 	int i;
 	int size;
 
-
 	ch = c;
 	p1 = (char*)dest;
 	p2 = (char*)src;
@@ -29,13 +28,13 @@ void *ft_memccpy(void *dest, const void *src, int c, size_t n)
 }
 
 
-int main() {
-	char *msg = "This is the string: not copied";
+// int main() {
+// 	char *msg = "This is the string: not copied";
 
-    char buffer[80];
-    memset( buffer, '\0', 80 );
-    printf("%p\n",memccpy( buffer, msg, ':', 80 ));
-    printf( "%s\n", buffer );
+//     char buffer[80];
+//     memset( buffer, '\0', 80 );
+//     printf("%p\n",memccpy( buffer, msg, ':', 80 ));
+//     printf( "%s\n", buffer );
 
-    return(0);
-  }
+//     return(0);
+//   }
