@@ -1,8 +1,5 @@
-#include <stdlib.h>
 
-// #include "libft.h"
-// void	*ft_memalloc(int size);
-int ft_strlen(const char *str);
+#include "libft.h"
 
 char *strdup(const char *src)
 {

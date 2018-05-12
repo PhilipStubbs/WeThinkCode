@@ -1,8 +1,4 @@
-#include <stdio.h>
-#include <string.h>
-// #include "libft.h"
-
-int ft_strlen(const char *str);
+#include "libft.h"
 
 char *ft_strcat(char *dest, const char *src)
 {

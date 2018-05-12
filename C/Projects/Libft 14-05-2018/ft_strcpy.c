@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include <string.h>
+#include "libft.h"
 
 
 char *ft_strcpy(char *dest, const char *src)
