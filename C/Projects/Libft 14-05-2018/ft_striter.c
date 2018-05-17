@@ -1,6 +1,18 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_striter.c                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: pstubbs <marvin@42.fr>                     +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2018/05/17 08:02:40 by pstubbs           #+#    #+#             */
+/*   Updated: 2018/05/17 08:02:42 by pstubbs          ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "libft.h"
 
-void ft_striter(char *s, void (*f)(char *))
+void	ft_striter(char *s, void (*f)(char *))
 {
 	int len;
 
@@ -10,21 +22,3 @@ void ft_striter(char *s, void (*f)(char *))
 		f(s++);
 	}
 }
-
-void test(char *c)
-{	
-	int a;
-	a = *c;
-	if(ft_isalpha(a))
-	{
-		c = c +1;
-	}
-}
-
-// int	main()
-// {
-// 	char *p = "abcd";
-// 	ft_striter(p, void test(char *c));
-// 	ft_putstr(p);
-// 	return(1);
-// }

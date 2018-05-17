@@ -1,23 +1,18 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_bzero.c                                         :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: pstubbs <marvin@42.fr>                     +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2018/05/17 07:32:59 by pstubbs           #+#    #+#             */
+/*   Updated: 2018/05/17 07:33:02 by pstubbs          ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "libft.h"
 
 void	ft_bzero(void *str, int n)
 {
 	ft_memset(str, '\0', n);
 }
-
-
-// int main () 
-// {
-//    char str[50];
-
-
-//    strcpy(str,"This is string.h library function");
-//    puts(str);
-
-//    ft_memset(str,'$' ,7);
-//    puts(str); 
-//    ft_bzero(str,7);
-//    puts(str);
-   
-//    return(0);
-// }

@@ -1,32 +1,28 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_strcpy.c                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: pstubbs <marvin@42.fr>                     +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2018/05/17 07:59:49 by pstubbs           #+#    #+#             */
+/*   Updated: 2018/05/17 07:59:50 by pstubbs          ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "libft.h"
 
-
-char *ft_strcpy(char *dest, const char *src)
+char	*ft_strcpy(char *dest, const char *src)
 {
-	char *p1;
-	int i;
+	char	*p1;
+	int		i;
 
 	p1 = (char*)src;
 	i = 0;
-	while(p1[i] != '\0')
+	while (p1[i] != '\0')
 	{
 		dest[i] = p1[i];
 		i++;
 	}
-	return(dest);
+	return (dest);
 }
-
-
-
-// int main () {
-//    char src[40];
-//    char dest[100];
-  
-//    ft_memset(dest, '\0', sizeof(dest));
-//    ft_strcpy(src, "This is a test");
-//    ft_strcpy(dest, src);
-
-//    printf("Final copied string : %s\n", dest);
-   
-//    return(0);
-// }

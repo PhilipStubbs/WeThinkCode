@@ -1,36 +1,34 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_memchr.c                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: pstubbs <marvin@42.fr>                     +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2018/05/17 07:46:04 by pstubbs           #+#    #+#             */
+/*   Updated: 2018/05/17 07:46:07 by pstubbs          ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "libft.h"
 
-void *ft_memchr(const void *src, int c, size_t n)
+void	*ft_memchr(const void *src, int c, size_t n)
 {
-	char *p1;
-	unsigned char ch;
-	int i;
-	int size;
+	unsigned char	ch;
+	char			*p1;
+	int				i;
+	int				size;
 
 	p1 = (char*)src;
 	ch = c;
 	i = 0;
 	size = n;
-	while(i <= size)
+	while (i <= size)
 	{
 		if (*p1 == ch)
-			return(p1);
+			return (p1);
 		p1++;
 		i++;
 	}
-	return(NULL);
+	return (NULL);
 }
-
-
-
-// int main () {
-//    const char str[] = "This is a test";
-//    const char ch = 's';
-//    char *ret;
-
-//    ret = memchr(str, ch, strlen(str));
-
-//    printf("String after |%c| is - |%s|\n", ch, ret);
-
-//    return(0);
-// }
