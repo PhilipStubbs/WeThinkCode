@@ -380,25 +380,25 @@
 // 	}
 // }
 
-void test(char *c)
-{
-    printf( "%c\n", *c );
-}
+// void test(char *c)
+// {
+//     printf( "%c\n", *c );
+// }
 
 
-int	main()
-{
+// int	main()
+// {
 
 
-	char *p = "abcd";
-	void (*foo)(char*) = &test;
+// 	char *p = "abcd";
+// 	void (*foo)(char*) = &test;
 
 
-	// foo = &test;
-	ft_striter(p, foo);
-	ft_putstr(p);
-	return(1);
-}
+// 	// foo = &test;
+// 	ft_striter(p, foo);
+// 	ft_putstr(p);
+// 	return(1);
+// }
 
 
 // ft_strlcat
@@ -577,3 +577,135 @@ int	main()
    
 //    return(0);
 // }
+
+
+
+
+
+// ft_striteri
+// void test(unsigned int i, char *c)
+// {
+//     printf( "%c\n", c[i] );
+// }
+
+
+// int	main()
+// {
+
+
+// 	char *p = "abcd";
+// 	void (*foo)(unsigned int, char *) = &test;
+
+
+// 	// foo = &test;
+// 	ft_striteri(p, foo);
+// 	ft_putstr(p);
+// 	return(1);
+// }
+
+
+
+
+// ft_strmap
+
+// char test1(char c)
+// {
+//     char a = c;
+
+//     a = c + 1;
+//     // printf("%c\n", a);
+//     return(a);
+// }
+
+
+// int	main()
+// {
+
+
+// 	const char *p = "abcd";
+// 	char *e;
+// 	char (*foo)(char) = &test1;
+
+
+// 	// foo = &test;
+// 	e = ft_strmap(p, foo);
+
+// 	ft_putstr(p);
+// 	ft_putchar('\n');
+// 	ft_putstr(e);
+// 	return(1);
+// }
+
+
+
+
+
+
+
+
+
+// ft_strmapi
+
+// char test1(unsigned int i, char c)
+// {
+//     char a = c;
+
+//     a = c + 1;
+//     i = 4;
+//     // printf("%c\n", a);
+//     return(a);
+// }
+
+
+// int	main()
+// {
+
+
+// 	const char *p = "abcd";
+// 	char *e;
+// 	char (*foo)(unsigned int, char) = &test1;
+
+
+// 	// foo = &test;
+// 	e = ft_strmapi(p, foo);
+
+// 	ft_putstr(p);
+// 	ft_putchar('\n');
+// 	ft_putstr(e);
+// 	return(1);
+// }
+
+
+
+
+// ft_strequ
+// int	main()
+// {
+
+
+// 	const char *p = "bced";
+// 	const char *a = "abcd";
+
+// 	printf("%d", ft_strequ(p, a));
+
+// 	return(1);
+// }
+
+
+
+
+// ft_strnequ
+// int	main()
+// {
+
+
+// 	const char *p = "abcde";
+// 	const char *a = "abcd";
+
+// 	printf("%d", ft_strnequ(p, a, 4));
+
+// 	return(1);
+// }
+
+
+
