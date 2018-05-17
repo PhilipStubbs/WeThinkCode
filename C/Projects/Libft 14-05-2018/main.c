@@ -1,3 +1,6 @@
+
+#include "libft.h"
+
 //ft_atoi
 
 // int main () {
@@ -200,9 +203,10 @@
 // ft_memalloc
 // int main()
 // {	
-	// size_t *p = ft_memalloc(5);
-	// int a = ft_memalloc(5)
-	// printf("%ln", p);
+// 	char *p = ft_memalloc(0);
+// 	char *a = (char*)malloc(-1);
+// 	printf("%s\n", ft_memset(p, 'a',100000));
+// 	printf("%s", memset(a, 'a',100000));
 
 // 	return(1);
 // }
@@ -366,22 +370,35 @@
 
 
 // ft_striter
+
 // void test(char *c)
 // {	
-// 	int a;
-// 	a = *c;
-// 	if(ft_isalpha(a))
+
+// 	if(ft_isalpha(c))
 // 	{
 // 		c = c +1;
 // 	}
 // }
-// int	main()
-// {
-// 	char *p = "abcd";
-// 	ft_striter(p, void test(char *c));
-// 	ft_putstr(p);
-// 	return(1);
-// }
+
+void test(char *c)
+{
+    printf( "%c\n", *c );
+}
+
+
+int	main()
+{
+
+
+	char *p = "abcd";
+	void (*foo)(char*) = &test;
+
+
+	// foo = &test;
+	ft_striter(p, foo);
+	ft_putstr(p);
+	return(1);
+}
 
 
 // ft_strlcat

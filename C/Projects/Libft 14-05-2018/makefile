@@ -5,10 +5,9 @@ SRC = ft_atoi.c ft_bzero.c ft_isalnum.c ft_isalpha.c ft_isascii.c ft_isdigit.c f
 	ft_strchr.c ft_strcmp.c ft_strcpy.c ft_strdup.c ft_strlcat.c ft_strlen.c ft_strncat.c \
 	ft_strncpy.c ft_strnstr.c ft_strrchr.c ft_strstr.c ft_tolower.c ft_toupper.c \
 	ft_memalloc.c ft_memdel.c ft_strnew.c ft_strdel.c ft_strclr.c ft_putchar.c \
-	ft_putstr.c ft_putchar_fd.c
+	ft_putstr.c ft_putchar_fd.c ft_striter.c
 
 OBJ = *.o
-HEADER = includes
 
 all: $(NAME)
 
