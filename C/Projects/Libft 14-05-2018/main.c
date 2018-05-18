@@ -409,7 +409,7 @@
 //    strcpy(src,  "This is source");
 //    strcpy(dest, "This is destination");
 
-//    ft_strlcat(dest, src, 2);
+//    strlcat(dest, src, 50);
 
 //    printf("Final destination string : |%s|", dest);
    
@@ -729,9 +729,15 @@
 
 
 
-// ft_strjoi
+// ft_strjoin
 // int	main()
-// sdfsdfsdfs
+// {
+// 	char *p = "Hello";
+// 	char *a = "friend";
+
+// 	printf("%s", ft_strjoin(p,a ));
+
 // 	return(1);
 // }
+
 
