@@ -746,12 +746,12 @@
 
 
 // ft_strtrim
-int	main()
-{
-	char *p = "		  \n  Hello friend its me 	 ";
+// int	main()
+// {
+// 	char *p = "		  \n  Hello friend its me 	 ";
 
-	printf("%s", ft_strtrim(p));
+// 	printf("%s", ft_strtrim(p));
 
-	return(1);
-}
+// 	return(1);
+// }
 
