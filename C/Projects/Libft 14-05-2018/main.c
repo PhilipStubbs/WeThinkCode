@@ -729,8 +729,9 @@
 
 
 
-// ft_strjoin
+// ft_strjoi
 // int	main()
+// sdfsdf
 // 	return(1);
 // }
 
