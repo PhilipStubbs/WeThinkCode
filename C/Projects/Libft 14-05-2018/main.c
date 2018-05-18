@@ -697,15 +697,33 @@
 // ft_strnequ
 // int	main()
 // {
+// 	const char *p = "aAcde";
+// 	const char *a = "abcdd";
 
-
-// 	const char *p = "abcde";
-// 	const char *a = "abcd";
-
-// 	printf("%d", ft_strnequ(p, a, 4));
+// 	printf("%d", ft_strnequ(p, a, 1));
 
 // 	return(1);
 // }
+
+
+
+
+
+
+
+
+
+
+//ft_strsub
+
+int	main()
+{
+	const char *p = "aAcde";
+
+	printf("%s", ft_strsub(p, 4, 4));
+
+	return(1);
+}
 
 
 
