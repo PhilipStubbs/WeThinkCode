@@ -716,14 +716,27 @@
 
 //ft_strsub
 
-int	main()
-{
-	const char *p = "aAcde";
+// int	main()
+// {
+// 	const char *p = "aAcde";
 
-	printf("%s", ft_strsub(p, 4, 4));
+// 	printf("%s", ft_strsub(p, 4, 4));
 
-	return(1);
-}
+// 	return(1);
+// }
 
 
+
+
+
+// ft_strjoin
+
+// int	main()
+// {
+// 	const char *p = "aAcde";
+
+// 	printf("%s", ft_strsub(p, 4, 4));
+
+// 	return(1);
+// }
 
