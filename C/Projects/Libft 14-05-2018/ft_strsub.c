@@ -1,37 +1,30 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strnequ.c                                       :+:      :+:    :+:   */
+/*   ft_strsub.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: pstubbs <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/05/17 17:47:49 by pstubbs           #+#    #+#             */
-/*   Updated: 2018/05/17 17:47:53 by pstubbs          ###   ########.fr       */
+/*   Created: 2018/05/18 07:46:58 by pstubbs           #+#    #+#             */
+/*   Updated: 2018/05/18 07:46:59 by pstubbs          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int		ft_strnequ(char const *s1, char const *s2, size_t n)
+char	*ft_strsub(char const *s, unsigned int start, size_t len)
 {
-	unsigned int	i;
-	unsigned int	c;
+	int		i;
+	char	*p;
 
 	i = 0;
-	c = 1;
-	while (s1[i] != '\0' && i <= n)
+	p = ft_memalloc(len);
+	if (start > len || p == NULL)
+		return(NULL);
+	else
 	{
-		if ((s1[i + 1] == '\0' && s2[i + 1] == '\0') && (s1[i] == s2[i]))
-			return (1);
-		if (c == n && s1[i] == s2[i])
-			return (1);
-		else if (s1[i] != s2[i])
-			return (0);
-		else
-		{
-			i++;
-			c++;
-		}
+		while(start <= len)
+			p[i++] = s[start++];
 	}
-	return (0);
+	return(p);
 }
