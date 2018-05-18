@@ -731,7 +731,7 @@
 
 // ft_strjoi
 // int	main()
-// sdfsdf
+// sdfsdfsdfs
 // 	return(1);
 // }
 
