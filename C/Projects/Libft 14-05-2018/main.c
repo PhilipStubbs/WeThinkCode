@@ -732,7 +732,7 @@
 // ft_strjoin
 
 // int	main()
-// sdfdgsgd
+// sdfdgsgdfgh
 // 	return(1);
 // }
 
