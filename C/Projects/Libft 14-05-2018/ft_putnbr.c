@@ -2,8 +2,5 @@
 
 void	ft_putnbr(int n)
 {
-	char	*p;
-
-	p = ft_itoa(n);
-	ft_putstr(p);
+	ft_putstr(ft_itoa(n));
 }

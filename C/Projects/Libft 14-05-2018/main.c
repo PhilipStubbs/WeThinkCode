@@ -755,3 +755,13 @@
 // 	return(1);
 // }
 
+
+
+// ft_atoi
+// int	main()
+// {
+// 	char *e = ft_itoa(2147483647);
+
+// 	printf("main %s\n" , e);
+// 	return(1);
+// }
