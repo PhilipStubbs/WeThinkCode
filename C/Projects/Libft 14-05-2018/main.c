@@ -773,28 +773,22 @@
 
 
 
-// ft_strsplit
 int	main()
 {
-	char *p;
-	// char *d;
-	const char *e = " Hello     my.   friends       ";
-	p = ft_strdup(e);
-	char *c = ft_strpull(p, ' ');
-	// d = ft_strstr(e, p);
-	printf("%s\n",c);
-	printf("%s\n",ft_strcmp(e, p));
-	// char *d = ft_strpull(&e, ' ');
-	// printf("%s\n",d);
-	// printf("%s\n",e);
 
+	const char *p = " Hello     my.   friends       ";
+	char **a;
+	
+	a = ft_strsplit(p, ' ');
+	int i;
+	i = 0;
+	printf("%c\n",a[i][2]);
+	while ( i <= 2)
+	{
+		printf("%s\n", a[i++]);
+	}
 	return(1);
 }
-
-
-
-
-
 
 
 

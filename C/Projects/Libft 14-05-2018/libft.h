@@ -71,6 +71,7 @@ void	ft_putstr_fd(char const *s, int fd);
 void	ft_putendl_fd(char const *s, int fd);
 void	ft_putnbr_fd(int n, int fd);
 char	*ft_strrev(char *p);
-char	*ft_strpull(char *s, char c);
+char	*ft_strpull(const char **s, char c);
 int		ft_strcount(char const *s, char d);
+int		ft_wordlen(char const *s, char d);
 #endif

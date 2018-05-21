@@ -10,13 +10,10 @@ int	ft_wordlen(char const *s, char d)
 	count = 0;
 	while (s[i] == d && s[i] != '\0')
 		i++;
-	while (s[i] != d )
+	while (s[i] != d && s[i] != '\0' )
 	{
-		while (s[i] != d && s[i] != '\0')
-		{
-			count++;
-			i++;
-		}			
+		count++;
+		i++;		
 	}
 	return (count);
 }

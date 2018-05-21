@@ -18,7 +18,7 @@ char	*ft_strpull(const char **s, char c)
 	if (p == NULL)
 		return(NULL);
 	i = 0;
-	while (**s != c)
+	while (**s != c && **s != '\0')
 	{
 		p[i++] = **s;
 		(*s)++;
