@@ -21,6 +21,8 @@ char	*ft_strtrim(char const *s)
 	len = ft_strlen(s);
 	i = 0;
 	p = ft_memalloc(len);
+	if(p == NULL)
+		return (NULL);
 	while (*s == ' ' || *s == '\n' || *s == '\t')
 		s++;
 	len = ft_strlen(s);

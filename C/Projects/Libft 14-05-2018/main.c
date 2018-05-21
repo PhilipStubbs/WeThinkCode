@@ -765,3 +765,36 @@
 // 	printf("main %s\n" , e);
 // 	return(1);
 // }
+
+
+
+
+
+
+
+
+// ft_strsplit
+int	main()
+{
+	char *p;
+	// char *d;
+	const char *e = " Hello     my.   friends       ";
+	p = ft_strdup(e);
+	char *c = ft_strpull(p, ' ');
+	// d = ft_strstr(e, p);
+	printf("%s\n",c);
+	printf("%s\n",ft_strcmp(e, p));
+	// char *d = ft_strpull(&e, ' ');
+	// printf("%s\n",d);
+	// printf("%s\n",e);
+
+	return(1);
+}
+
+
+
+
+
+
+
+

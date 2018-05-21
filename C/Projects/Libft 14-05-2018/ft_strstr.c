@@ -21,6 +21,8 @@ char	*ft_strstr(const char *haystack, const char *needle)
 	p2 = (char*)needle;
 	p1 = (char*)haystack;
 	i = 0;
+	if (strcmp(needle , "") == 0)
+		return (p1);
 	while (1)
 	{
 		if (p2[i] == p1[i])

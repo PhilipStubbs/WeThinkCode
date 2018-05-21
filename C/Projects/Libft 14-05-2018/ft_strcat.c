@@ -32,5 +32,5 @@ char	*ft_strcat(char *dest, const char *src)
 		e++;
 	}
 	dest[i] = '\0';
-	return (dest);
+	return (dest + i);
 }

@@ -28,8 +28,9 @@ char	*ft_itoa(int n)
 	char	*p;
 	int		isneg;
 
+	isneg = 0;
 	if (n == 0)
-	{
+	{	
 		p = ft_memalloc(2);
 		p[0] = '0';
 		p[1] = '\0';
