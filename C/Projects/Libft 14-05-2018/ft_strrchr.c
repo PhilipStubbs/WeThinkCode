@@ -15,27 +15,22 @@
 char	*ft_strrchr(const char *str, int c)
 {
 	char	*p1;
-	int		count;
-	int		count1;
-	int		i;
+	int		len;
 
+	len = ft_strlen(str);
+	p1 = ft_strchr(str, c);
+	if (p1 == NULL)
+		return (NULL);
 	p1 = (char*)str;
-	i = 0;
-	count = 0;
-	count1 = 0;
-	while (p1[i] != '\0')
+	if (c == '\0')
+		return (p1 + len);
+	while(len)
 	{
-		if (p1[i] == c)
-			count++;
-		i++;
+		if (p1[len] != c)
+			len--;
+		else
+			return (p1 + len);
 	}
-	if (count == 0)
-		return (p1 = NULL);
-	while (count1 != count)
-	{
-		if (*p1 == c)
-			count1++;
-		p1++;
-	}
-	return (p1 - 1);
+	p1 = NULL;
+	return (p1);
 }

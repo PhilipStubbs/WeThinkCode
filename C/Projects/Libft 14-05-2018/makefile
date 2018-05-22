@@ -15,7 +15,7 @@ OBJ = *.o
 
 all: $(NAME)
 
-$(NAME): 
+$(NAME):
 	gcc -c -Wall -Werror -Wextra $(SRC) -I. -c
 	ar -rc $(NAME) $(OBJ)
 	ranlib $(NAME)
