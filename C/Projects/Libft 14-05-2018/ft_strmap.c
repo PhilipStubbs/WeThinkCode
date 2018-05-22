@@ -10,7 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-
 #include "libft.h"
 
 char	*ft_strmap(char const *s, char (*f)(char))
@@ -25,7 +24,6 @@ char	*ft_strmap(char const *s, char (*f)(char))
 	while (*s)
 	{
 		p[i++] = f(*s++);
-
 	}
 	return (p);
 }

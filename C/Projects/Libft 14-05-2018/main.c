@@ -337,14 +337,24 @@
 // }
 
 
+// 	void strcmp_main()
+// {
+// 	printf("\e[01;33mFT_STRCMP\n");
+// 	usleep(100000);
+// 	((ft_strcmp("abc", "abc")== 0)&&
+// 	(ft_strcmp("abc", "abd") < 0) &&
+// 	(ft_strcmp("a", "abcde")!= 0)) ? printf("\x1b[1;32m Passed all the above tests\n"):
+// 	printf("\x1b[1;31mFiled one or more of the above tests\n");
+// 	usleep(100000);
+// }
 
-
-// ft_strcmp
+// // ft_strcmp
 // int main()
 // {
-// 	char str[] = "x";
-// 	char str2[] = "hj";
 
+// 	char str[] = "E";
+// 	char str2[] = "EERSDF";
+// 	strcmp_main();
 // 	printf("%d\n", ft_strcmp(str, str2));
 // 	printf("%d", strcmp(str, str2));
 // 	return(1);
@@ -714,13 +724,13 @@
 
 
 
-//ft_strsub
+// ft_strsub
 
 // int	main()
 // {
 // 	const char *p = "aAcde";
 
-// 	printf("%s", ft_strsub(p, 4, 4));
+// 	printf("%s", ft_strsub(p, 2, 4));
 
 // 	return(1);
 // }
@@ -772,23 +782,70 @@
 
 
 
+//strsplit
+// int	main()
+// {
 
-int	main()
-{
-
-	const char *p = " Hello     my.   friends       ";
-	char **a;
+// 	const char *p = " Hello     my.   friends       ";
+// 	char **a;
 	
-	a = ft_strsplit(p, ' ');
-	int i;
-	i = 0;
-	printf("%c\n",a[i][2]);
-	while ( i <= 2)
-	{
-		printf("%s\n", a[i++]);
-	}
-	return(1);
-}
+// 	a = ft_strsplit(p, ' ');
+// 	int i;
+// 	i = 0;
+// 	printf("%c\n",a[i][4]);
+// 	while ( i <= 2)
+// 	{
+// 		printf("%s\n", a[i++]);
+// 	}
+// 	return(1);
+// }
+
+
+
+
+
+
+
+
+
+
+// void atoi_main()
+// {
+// 	printf("\e[01;33mFT_ATOI\n");
+// 	usleep(100000);
+// 	((ft_atoi(" -sfecf") == 0) &&
+// 	(ft_atoi("+2798") == 2798) &&
+// 	(ft_atoi("  \t\n  \r\r\v\f-899") == -899) &&
+// 	(ft_atoi("+0089") == 89) &&
+// 	(ft_atoi("-2147483648") == -2147483648) &&
+// 	(ft_atoi("a56") == 0) &&
+// 	(ft_atoi("    555 5555555555555555") == 555)) ? printf("\x1b[1;32m Passed all the above tests\n"):
+// 	printf("\x1b[1;31mFiled one or more of the above tests\n");
+// 	usleep(100000);
+// }
+// int	main()
+// {
+// 	printf("%d == 0\n", ft_atoi(" -sfecf"));
+// 	printf("%d == 2798\n", ft_atoi("+2798"));
+// 	printf("%d == -899\n", ft_atoi("  \t\n  \r\r\v\f-899"));
+// 	printf("%d == 89\n", ft_atoi("+0089"));
+// 	printf("%d == -2147483648 \n", ft_atoi("-2147483648"));
+// 	printf("%d == 0\n", ft_atoi("a56"));
+// 	printf("%d == 555 \n", ft_atoi("    555 5555555555555555"));
+// 	return(1);
+// }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

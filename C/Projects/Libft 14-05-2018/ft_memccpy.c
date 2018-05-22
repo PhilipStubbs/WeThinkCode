@@ -24,10 +24,10 @@ void	*ft_memccpy(void *dest, const void *src, int c, size_t n)
 	p2 = (char*)src;
 	i = 0;
 	while (i <= n)
-	{	
+	{
 		p1[i] = p2[i];
 		if (p2[i] == ch)
-			return(dest + i + 1);
+			return (dest + i + 1);
 		i++;
 	}
 	return (NULL);

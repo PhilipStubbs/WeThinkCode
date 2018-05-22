@@ -19,7 +19,7 @@ char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
 	p1 = ft_memalloc(len + 1);
 	if (p1 == NULL)
 		return (NULL);
-	if (strcmp(needle , "") == 0)
+	if (strcmp(needle, "") == 0)
 		return ((char*)haystack);
 	ft_strncpy(p1, haystack, len);
 	return (ft_strstr(p1, needle));
