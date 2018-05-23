@@ -14,23 +14,21 @@
 
 char	*ft_strcat(char *dest, const char *src)
 {
-	char	*p1;
+	char	*s;
 	int		i;
 	int		e;
-	int		size;
 
-	p1 = (char*)src;
-	size = (ft_strlen(src) + ft_strlen(dest));
+	s = (char*)src;
 	i = 0;
 	e = 0;
 	while (dest[i] != '\0')
 		i++;
-	while (i <= size && p1[e] != '\0')
+	while (s[e] != '\0')
 	{
-		dest[i] = p1[e];
+		dest[i] = s[e];
 		i++;
 		e++;
 	}
 	dest[i] = '\0';
-	return (dest + i);
+	return (dest);
 }
