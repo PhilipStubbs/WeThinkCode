@@ -21,10 +21,12 @@ char	*ft_strncpy(char *dest, const char *src, size_t n)
 	p1 = (char*)src;
 	i = 0;
 	size = n;
-	while (i < size)
+	while (src[i] != '\0' && i < size)
 	{
 		dest[i] = p1[i];
 		i++;
 	}
+	while ( i != (int)n)
+		dest[i++] = '\0';
 	return (dest);
 }
