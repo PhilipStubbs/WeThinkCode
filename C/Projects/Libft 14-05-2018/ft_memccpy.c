@@ -23,7 +23,6 @@ void	*ft_memccpy(void *dest, const void *src, int c, size_t n)
 	p2 = (unsigned char*)src;
 	if (ft_strcmp((char*)src, "") == 0)
 		{
-			write(1, "HERE", 4);
 			*p1 = '\0';
 			return (dest);
 		}
@@ -33,7 +32,7 @@ void	*ft_memccpy(void *dest, const void *src, int c, size_t n)
 		if (*p2 == (unsigned char)c)
 		{
 			*p1 = *p2;
-			return (p1 +1);
+			return (p1 + 1);
 		}
 		i++;
 	}
