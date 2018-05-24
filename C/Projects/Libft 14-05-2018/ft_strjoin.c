@@ -22,15 +22,21 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	p = ft_memalloc(len);
 	if (p == NULL)
 		return (NULL);
-	i = 0;
-	while (*s1)
+	if (s1 != NULL && s2 != NULL)
 	{
-		p[i++] = *s1++;
+		if (p == NULL)
+			return (NULL);
+		i = 0;
+		while (*s1)
+		{
+			p[i++] = *s1++;
+		}
+		while (*s2)
+		{
+			p[i++] = *s2++;
+		}
+		p[i] = '\0';
+		return (p);
 	}
-	while (*s2)
-	{
-		p[i++] = *s2++;
-	}
-	p[i] = '\0';
 	return (p);
 }

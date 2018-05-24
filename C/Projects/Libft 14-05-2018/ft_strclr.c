@@ -14,5 +14,8 @@
 
 void	ft_strclr(char *s)
 {
-	ft_bzero(s, ft_strlen(s));
+	if (s != NULL)
+	{
+		ft_bzero(s, ft_strlen(s));
+	}
 }
