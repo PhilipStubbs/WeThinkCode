@@ -25,6 +25,8 @@ char	*ft_strpull(const char **s, char c)
 	}
 	len = (ft_wordlen(*s, c) + 1);
 	p = ft_memalloc(len);
+	if (p == NULL)
+		return (NULL);
 	ft_bzero(p, len);
 	if (p == NULL)
 		return (NULL);

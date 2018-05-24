@@ -14,20 +14,27 @@
 
 char	**ft_strsplit(char const *s, char c)
 {
-	int		words;
-	int		i;
-	char	**cp;
-	char	*temp;
+	int			words;
+	int			i;
+	char		**cp;
+	char		*temp;
+	const char	*tempstr;
 
+	tempstr = (char*)malloc(ft_strlen(s) + 1);
 	words = ft_strcount(s, c);
-	cp = (char**)malloc(words);
+	cp = (char**)malloc(words + 1);
+	if (tempstr == NULL || cp == NULL)
+		return (NULL);
 	i = 0;
-	while (i <= words)
+	tempstr = ft_strdup(s);
+	while (i < words)
 	{
-		temp = ft_strpull(&s, c);
+		temp = ft_strpull(&tempstr, c);
 		if (temp == NULL)
 			return (NULL);
-		cp[i] = temp;
+		cp[i] = ft_strnew(ft_strlen(temp));
+		ft_strcpy(cp[i], temp);
+		free(temp);
 		i++;
 	}
 	return (cp);
