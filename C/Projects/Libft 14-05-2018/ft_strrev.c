@@ -21,6 +21,8 @@ char	*ft_strrev(char *p)
 	i = 0;
 	len = ft_strlen(p);
 	rp = ft_memalloc(len);
+	if (rp == NULL || p == NULL)
+		return (NULL);
 	len = len - 1;
 	while (len >= 0)
 	{

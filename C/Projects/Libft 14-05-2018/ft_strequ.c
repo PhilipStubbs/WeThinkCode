@@ -21,6 +21,8 @@ int		ft_strequ(char const *s1, char const *s2)
 	i = 0;
 	s1len = ft_strlen(s1);
 	s2len = ft_strlen(s2);
+	if (ft_strcmp(s1, "") == 0 && ft_strcmp(s2, "") == 0)
+		return (1);
 	if (s1len != s2len)
 		return (0);
 	while (s1[i] != '\0')

@@ -20,7 +20,9 @@ char	*ft_strnew(size_t size)
 	{
 		return (p = NULL);
 	}
-	p = (char*)malloc(size);
-	ft_memset(p, '\0', size);
+	p = (char*)malloc(size + 1);
+	if (p == NULL)
+		return (NULL);
+	ft_memset(p, '\0', size + 1);
 	return (p);
 }
