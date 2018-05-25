@@ -9,7 +9,7 @@ SRC = ft_atoi.c ft_bzero.c ft_isalnum.c ft_isalpha.c ft_isascii.c ft_isdigit.c f
 	ft_strpull_idx.c ft_putstr.c ft_putchar_fd.c ft_striter.c ft_striteri.c ft_strmap.c ft_strmapi.c  \
 	ft_strequ.c ft_strnequ.c ft_strsub.c ft_strjoin.c ft_strtrim.c ft_strsplit.c \
 	ft_itoa.c ft_putendl.c ft_putnbr.c ft_putstr_fd.c ft_putendl_fd.c ft_strcount.c \
-	ft_putnbr_fd.c ft_strrev.c ft_wordlen.c \
+	ft_putnbr_fd.c ft_strrev.c ft_wordlen.c ft_intlen.c \
 
 OBJ = *.o
 

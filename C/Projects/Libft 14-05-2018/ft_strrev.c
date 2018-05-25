@@ -20,15 +20,22 @@ char	*ft_strrev(char *p)
 
 	i = 0;
 	len = ft_strlen(p);
-	rp = ft_memalloc(len);
-	if (rp == NULL || p == NULL)
+	rp = (char*)malloc(len);
+	if (!rp || !p)
 		return (NULL);
-	len = len - 1;
-	while (len >= 0)
-	{
-		rp[i] = p[len];
-		i++;
-		len--;
+	else
+		{
+		len = len - 1;
+		while (len >= 0)
+		{
+			rp[i] = p[len];
+			i++;
+			len--;
+		}
+		i = 0;
+		while (rp[i] != '*' && rp[i] != '\0')
+			i++;
+		rp[i] = '\0';
 	}
 	return (rp);
 }

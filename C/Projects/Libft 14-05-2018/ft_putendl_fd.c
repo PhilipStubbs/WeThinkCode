@@ -14,6 +14,16 @@
 
 void	ft_putendl_fd(char const *s, int fd)
 {
-	ft_putstr_fd(s, fd);
-	ft_putchar('\n');
+	char	*ret;
+	int		len;
+
+	if (s)
+	{
+		len = ft_strlen(s);
+		ret = (char*)ft_memalloc(len + 1);
+		ft_strcpy(ret, s);
+		ret[len] = '\n';
+		ret[len + 1] = '\0';
+		ft_putstr_fd(ret, fd);
+	}
 }

@@ -12,22 +12,6 @@
 
 #include "libft.h"
 
-// static int	ft_atoicvaluecheck(long long int i)
-// {
-// 	// printf("%lld\n" ,i);
-// 	int o = i;
-// 	if (i <= -469762049)
-// 		o = -1;
-// 	if ( i >= 469762049)
-// 		o = 0;
-// 	// if (i <= -9223372036854775807)
-// 	// 	i = 0;
-// 	// if (i >= 9223372036854775807)
-// 	// 	i = -1;
-
-// 	return (o);
-// }
-
 int	ft_atoi(const char *str)
 {
 	long long int i;
@@ -48,7 +32,6 @@ int	ft_atoi(const char *str)
 		i = (i * 10) + (str[in++] - '0');
 	if (str[c] == '-')
 		i *= -1;
-	printf("%lld\n", i);
 	if ( i == 9223372036854775807)
 		i = -1;
 	if ( i == -9223372036854775806)

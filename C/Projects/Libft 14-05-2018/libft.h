@@ -16,7 +16,6 @@
 # include <stdlib.h>
 # include <string.h>
 # include <stdio.h>
-# include <ctype.h>
 
 void	*ft_memset(void *str, int c, size_t n);
 void	ft_bzero(void *str, int n);
@@ -75,4 +74,5 @@ char	*ft_strpull_idx(const char *s, char c, unsigned int start);
 char	*ft_strpull_ptr(const char **s, char c);
 int		ft_strcount(char const *s, char d);
 int		ft_wordlen(char const *s, char d);
+int		ft_intlen(int n);
 #endif
