@@ -5,11 +5,12 @@
 int main () 
 
 {
+	// ft_putnbr_fd(-150, 1);
 	// int i = ft_intlen(103004);
-	char *i1 = itoa(-2147483647 -1);
+// 	char *i1 = itoa(-2147483647 -1);
 
 
-printf("1 : %s\n", i1);
+// printf("1 : %s\n", i1);
 
 return (0);
 }

@@ -19,11 +19,12 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	char	*p;
 
 	len = ft_strlen(s1) + ft_strlen(s2);
-	p = ft_memalloc(len);
-	if (p == NULL)
-		return (NULL);
+
 	if (s1 != NULL && s2 != NULL)
 	{
+		p = ft_memalloc(len);
+		if (p == NULL)
+			return (NULL);
 		if (p == NULL)
 			return (NULL);
 		i = 0;
@@ -38,5 +39,5 @@ char	*ft_strjoin(char const *s1, char const *s2)
 		p[i] = '\0';
 		return (p);
 	}
-	return (p);
+	return (NULL);
 }

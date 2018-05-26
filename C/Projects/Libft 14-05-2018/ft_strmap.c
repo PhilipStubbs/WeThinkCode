@@ -20,7 +20,7 @@ char	*ft_strmap(char const *s, char (*f)(char))
 
 	len = ft_strlen(s) + 1;
 
-	if (!s)
+	if (!s || !f)
 		return (NULL);
 	p = ft_memalloc(len);
 	if (!p)

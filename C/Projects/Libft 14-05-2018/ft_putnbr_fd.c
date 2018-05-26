@@ -13,35 +13,26 @@
 #include "libft.h"
 
 
-static char	*ft_returnzero_fd(int n)
+static void		ft_returnzero_fd(int n, char *buff)
 {
-	char	*p;
 	if (n == 0)
 	{
-		p = (char*)ft_memalloc(2);
-		if (!p)
-			return (NULL);
-		p[0] = '0';
-		p[1] = '\0';
+		buff[0] = '0';
+		buff[1] = '\0';
 	}
 	if (n == (-2147483647 -1))
 	{
-		p = ft_strnew(12);
-		if (!p)
-			return (NULL);
-		ft_strcpy(p, "-2147483648\0");
+		ft_strcpy(buff, "-2147483648\0");
 	}
-	return (p);
 }
 	
-static char	*ft_itoa_fd(int n)
+static void		ft_itoa_fd(int n, char *buff)
 {
-		char	*ret;
 		int 	len;
 		int		isneg;
 
 		if (n == 0 || n == (-2147483647 -1))
-			return (ft_returnzero_fd(n));
+			ft_returnzero_fd(n, buff);
 		len = ft_intlen(n);
 		isneg = 0;
 		if (n < 0)
@@ -49,24 +40,22 @@ static char	*ft_itoa_fd(int n)
 			isneg = 1;
 			n = n * -1;
 		}
-		if (!(ret = (char*)ft_memalloc(len + 1)))
-			return (NULL);
-		ret[len + 1] = '\0';
+
+		buff[len + 1] = '\0';
 		while(n != 0)
 		{
-			ret[--len] = n % 10 + 48;
+			buff[--len] = n % 10 + 48;
 			n = n / 10;
 		}
 		if (isneg)
-			ret[0] = '-';
-		return (ret);
+			buff[0] = '-';
 }
 
 void	ft_putnbr_fd(int n, int fd)
 {	
-	char	*p;
-	p = ft_memalloc(ft_strlen(ft_itoa_fd(n)));
-	p = ft_itoa_fd(n);
-	ft_putstr_fd(p, fd);
-	free(p);
+	char	buff[12];
+	
+	ft_bzero(buff, 12);
+	ft_itoa_fd(n, buff);	
+	ft_putstr_fd(buff, fd);
 }
