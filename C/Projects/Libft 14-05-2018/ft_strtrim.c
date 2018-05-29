@@ -15,7 +15,6 @@
 char	*ft_strtrim(char const *s)
 {
 	int		i;
-	char	*p;
 	int		len;
 
 	if (!s)
@@ -25,17 +24,10 @@ char	*ft_strtrim(char const *s)
 	{
 		s++;
 		if (*s == '\0')
-			return ((char*)s);
+			return (ft_strsub(s, 0, 0));
 	}
-	len = ft_strlen(s);
-	len--;
+	len = ft_strlen(s) - 1;
 	while (s[len] == ' ' || s[len] == '\n' || s[len] == '\t')
 		len--;
-	p = ft_memalloc(len + 2);
-	if (p == NULL)
-		return (NULL);
-	while (i != len + 1)
-		p[i++] = *s++;
-	p[i] = '\0';
-	return (p);
+	return (ft_strsub(s, 0, len + 1));
 }

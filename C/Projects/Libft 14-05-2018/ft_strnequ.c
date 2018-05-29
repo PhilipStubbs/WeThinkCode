@@ -28,7 +28,7 @@ int		ft_strnequ(char const *s1, char const *s2, size_t n)
 	i = ft_strcmp(p1, p2);
 	if (i == 0)
 		return (1);
-	else 
+	else
 		return (0);
 	return (0);
 }

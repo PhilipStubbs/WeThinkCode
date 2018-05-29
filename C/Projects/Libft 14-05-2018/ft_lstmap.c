@@ -17,17 +17,17 @@ t_list	*ft_lstmap(t_list *lst, t_list *(*f)(t_list *elem))
 	t_list	*ret;
 	t_list	*temp;
 
+	if (!lst || !f)
+		return (NULL);
+	ret = f(lst);
+	if (!ret)
+		return (NULL);
+	temp = ret;
+	lst = lst->next;
 	while (lst != NULL)
 	{
-		temp = f(lst);
-		if (!temp)
-			return (NULL);
-		ret = (t_list*)ft_memalloc(sizeof(temp));
-		if (!ret)
-			return (NULL);
-		ret = temp;
-		ret->content_size = temp->content_size;
-		ret->next = temp;
+		temp->next = f(lst);
+		temp = temp->next;
 		lst = lst->next;
 	}
 	return (ret);
