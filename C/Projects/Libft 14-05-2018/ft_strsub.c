@@ -17,10 +17,14 @@ char	*ft_strsub(char const *s, unsigned int start, size_t len)
 	int		i;
 	char	*p;
 
+	if (!s || len <= 0 || (int)start < 0)
+	{
+		p = (char*)malloc(0);
+		if (!p)
+			return (NULL);
+	}
 	i = 0;
-	if (!s && len == 0)
-		return (NULL);
-	p = ft_memalloc(len + 1);
+	p = ft_strnew(len);
 	if (start > len || p == NULL)
 		return (NULL);
 	else
@@ -30,7 +34,6 @@ char	*ft_strsub(char const *s, unsigned int start, size_t len)
 			p[i] = s[i + start];
 			i++;
 		}
-
 	}
 	p[len + 1] = '\0';
 	return (p);

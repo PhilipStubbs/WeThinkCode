@@ -18,10 +18,9 @@ char	*ft_strmap(char const *s, char (*f)(char))
 	int		i;
 	char	*p;
 
-	len = ft_strlen(s) + 1;
-
 	if (!s || !f)
 		return (NULL);
+	len = ft_strlen(s) + 1;
 	p = ft_memalloc(len);
 	if (!p)
 		return (NULL);
@@ -31,6 +30,5 @@ char	*ft_strmap(char const *s, char (*f)(char))
 		p[i++] = f(*s++);
 	}
 	p[i] = '\0';
-
 	return (p);
 }

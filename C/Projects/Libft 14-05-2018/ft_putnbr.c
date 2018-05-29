@@ -13,14 +13,13 @@
 #include "libft.h"
 
 void	ft_putnbr(int n)
-{	
-	if (n == -2147483647 -1)
-		ft_putstr("2147483648");
-
+{
+	if (n == -2147483647 - 1)
+		write(1,"-2147483648\0", 12);
 	if (n < 0)
 	{
 		ft_putchar('-');
-		n = n *1;
+		n = n * -1;
 	}
 	if (n >= 10)
 	{

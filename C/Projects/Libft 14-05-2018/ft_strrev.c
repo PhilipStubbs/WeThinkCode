@@ -24,7 +24,7 @@ char	*ft_strrev(char *p)
 	if (!rp || !p)
 		return (NULL);
 	else
-		{
+	{
 		len = len - 1;
 		while (len >= 0)
 		{
