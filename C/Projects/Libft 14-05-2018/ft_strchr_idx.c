@@ -1,31 +1,31 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strtrim.c                                       :+:      :+:    :+:   */
+/*   ft_strchr_idx.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: pstubbs <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/05/18 12:29:35 by pstubbs           #+#    #+#             */
-/*   Updated: 2018/05/18 12:29:36 by pstubbs          ###   ########.fr       */
+/*   Created: 2018/06/01 07:10:58 by pstubbs           #+#    #+#             */
+/*   Updated: 2018/06/01 07:11:00 by pstubbs          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*ft_strtrim(char const *s)
+int	ft_strchr_idx(const char *str, int c)
 {
-	int		len;
+	char			*p1;
+	unsigned char	ch;
+	int				i;
 
-	if (!s)
-		return (NULL);
-	while (*s == ' ' || *s == '\n' || *s == '\t')
+	i = 0;
+	p1 = (char*)str;
+	ch = c;
+	while (p1[i] != ch)
 	{
-		s++;
-		if (*s == '\0')
-			return (ft_strsub(s, 0, 0));
+		if (p1[i] == '\0')
+			return (-1);
+		i++;
 	}
-	len = ft_strlen(s) - 1;
-	while (s[len] == ' ' || s[len] == '\n' || s[len] == '\t')
-		len--;
-	return (ft_strsub(s, 0, len + 1));
+	return (i);
 }

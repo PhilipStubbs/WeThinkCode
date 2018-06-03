@@ -15,10 +15,12 @@
 static	void	ft_proccessing(char const *s, char c, char **ret, int w)
 {
 	char	*temp;
+	int		wordlen;
 
-	temp = (char*)ft_strnew((int)ft_strlen(ft_strpull_idx(s, c, 0)));
+	wordlen = ft_wordlen(s, c);
+	temp = (char*)ft_strnew((int)(wordlen));
 	temp = ft_strpull_idx(s, c, 0);
-	ret[w] = ft_strnew(ft_strlen(temp));
+	ret[w] = (char*)malloc(wordlen + 1);
 	ft_strcpy(ret[w], temp);
 	free(temp);
 }
@@ -33,7 +35,7 @@ char			**ft_strsplit(char const *s, char c)
 		return (NULL);
 	i = 0;
 	words = ft_strcount(s, c);
-	ret = (char**)malloc(words + 1);
+	ret = (char**)malloc(sizeof(*ret) * words + 1);
 	if (!ret)
 		return (NULL);
 	while (i < words)
@@ -45,6 +47,6 @@ char			**ft_strsplit(char const *s, char c)
 			s++;
 		i++;
 	}
-	ret[i] = NULL;
+	ret[words] = NULL;
 	return (ret);
 }
