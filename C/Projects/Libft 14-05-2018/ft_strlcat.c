@@ -12,12 +12,12 @@
 
 #include "libft.h"
 
-size_t	ft_strlcat(char *restrict dest, const char  *restrict src, size_t len)
+size_t	ft_strlcat(char *restrict dest, const char *restrict src, size_t len)
 {
-	char	*s;
-	int		i;
-	int		e;
-	unsigned ret;
+	char		*s;
+	int			i;
+	int			e;
+	unsigned	ret;
 
 	s = (char*)src;
 	i = 0;

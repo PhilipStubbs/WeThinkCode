@@ -1,36 +1,38 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strsub.c                                        :+:      :+:    :+:   */
+/*   ft_lstnew.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: pstubbs <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/05/18 07:46:58 by pstubbs           #+#    #+#             */
-/*   Updated: 2018/05/18 07:46:59 by pstubbs          ###   ########.fr       */
+/*   Created: 2018/05/28 09:00:54 by pstubbs           #+#    #+#             */
+/*   Updated: 2018/05/28 09:00:56 by pstubbs          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*ft_strsub(char const *s, unsigned int start, size_t len)
+t_list	*ft_lstnew(void const *content, size_t content_size)
 {
-	int		i;
-	char	*p;
+	t_list *link;
 
-	if (!s)
+	link = (t_list*)ft_memalloc(sizeof(t_list));
+	if (!link)
 		return (NULL);
-	i = 0;
-	p = ft_strnew(len);
-	if (p == NULL)
-		return (NULL);
+	if (!content)
+	{
+		link->content = ft_memalloc(sizeof(NULL));
+		link->content = NULL;
+		link->content_size = 0;
+	}
 	else
 	{
-		while (s[i] && i < (int)len)
-		{
-			p[i] = s[i + start];
-			i++;
-		}
+		link->content = ft_memalloc(content_size);
+		if (!link->content)
+			return (NULL);
+		ft_memcpy(link->content, content, content_size);
+		link->content_size = content_size;
 	}
-	p[len + 1] = '\0';
-	return (p);
+	link->next = NULL;
+	return (link);
 }

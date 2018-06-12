@@ -15,27 +15,20 @@
 int		ft_strnequ(char const *s1, char const *s2, size_t n)
 {
 	unsigned int	i;
-	unsigned int	c;
+	char			*p1;
+	char			*p2;
 
 	i = 0;
-	c = 1;
 	if (!s1 || !s2)
 		return (0);
-	if (ft_strcmp(s1, "") == 0 && ft_strcmp(s2, "") == 0)
+	if ((ft_strcmp(s1, "") == 0 && ft_strcmp(s2, "") == 0) || n == 0)
 		return (1);
-	while (s1[i] != '\0' && i <= n)
-	{
-		if ((s1[i + 1] == '\0' && s2[i + 1] == '\0') && (s1[i] == s2[i]))
-			return (1);
-		if (c == n && s1[i] == s2[i])
-			return (1);
-		else if (s1[i] != s2[i])
-			return (0);
-		else
-		{
-			i++;
-			c++;
-		}
-	}
+	p1 = ft_strsub(s1, 0, n);
+	p2 = ft_strsub(s2, 0, n);
+	i = ft_strcmp(p1, p2);
+	if (i == 0)
+		return (1);
+	else
+		return (0);
 	return (0);
 }

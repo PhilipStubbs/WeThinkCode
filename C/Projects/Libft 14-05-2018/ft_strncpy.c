@@ -26,7 +26,7 @@ char	*ft_strncpy(char *dest, const char *src, size_t n)
 		dest[i] = p1[i];
 		i++;
 	}
-	while ( i != (int)n)
+	while (i != (int)n)
 		dest[i++] = '\0';
 	return (dest);
 }

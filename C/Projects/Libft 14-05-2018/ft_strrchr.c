@@ -18,19 +18,15 @@ char	*ft_strrchr(const char *str, int c)
 	int		len;
 
 	len = ft_strlen(str);
-	p1 = ft_strchr(str, c);
-	if (p1 == NULL)
-		return (NULL);
 	p1 = (char*)str;
 	if (c == '\0')
 		return (p1 + len);
-	while(len)
+	while (len >= 0)
 	{
 		if (p1[len] != c)
 			len--;
 		else
 			return (p1 + len);
 	}
-	p1 = NULL;
-	return (p1);
+	return (p1 = NULL);
 }
