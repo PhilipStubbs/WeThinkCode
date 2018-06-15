@@ -1,0 +1,498 @@
+= Git history ==================================================================
+$> git -C /var/folders/0x/b5q2bcq96jj4j77psnf7t6lc0000gq/T/tmpxgeaOi/user log --pretty='%H - %an, %ad : %s'
+2dca6fe134dd2ebceed139344669bdda2c77bcf9 - PhilipStubbs, Wed May 30 06:43:06 2018 +0200 : adding all the work
+
+= Collected files ==========================================
+$> ls -lAR /var/folders/0x/b5q2bcq96jj4j77psnf7t6lc0000gq/T/tmpxgeaOi/user
+total 544
+-rw-r--r--  1 deepthought  deepthought  3087 May 31 06:50 __GIT_HISTORY
+-rw-r--r--  1 deepthought  deepthought     8 May 31 06:50 author
+-rw-r--r--  1 deepthought  deepthought  1450 May 31 06:50 ft_atoi.c
+-rw-r--r--  1 deepthought  deepthought   974 May 31 06:50 ft_bzero.c
+-rw-r--r--  1 deepthought  deepthought  1053 May 31 06:50 ft_intlen.c
+-rw-r--r--  1 deepthought  deepthought  1068 May 31 06:50 ft_isalnum.c
+-rw-r--r--  1 deepthought  deepthought  1033 May 31 06:50 ft_isalpha.c
+-rw-r--r--  1 deepthought  deepthought   997 May 31 06:50 ft_isascii.c
+-rw-r--r--  1 deepthought  deepthought  1005 May 31 06:50 ft_isdigit.c
+-rw-r--r--  1 deepthought  deepthought  1002 May 31 06:50 ft_isprint.c
+-rw-r--r--  1 deepthought  deepthought  1596 May 31 06:50 ft_itoa.c
+-rw-r--r--  1 deepthought  deepthought  1019 May 31 06:50 ft_lstadd.c
+-rw-r--r--  1 deepthought  deepthought  1126 May 31 06:50 ft_lstdel.c
+-rw-r--r--  1 deepthought  deepthought  1081 May 31 06:50 ft_lstdelone.c
+-rw-r--r--  1 deepthought  deepthought  1052 May 31 06:50 ft_lstiter.c
+-rw-r--r--  1 deepthought  deepthought  1218 May 31 06:50 ft_lstmap.c
+-rw-r--r--  1 deepthought  deepthought  1404 May 31 06:50 ft_lstnew.c
+-rw-r--r--  1 deepthought  deepthought  1070 May 31 06:50 ft_memalloc.c
+-rw-r--r--  1 deepthought  deepthought  1247 May 31 06:50 ft_memccpy.c
+-rw-r--r--  1 deepthought  deepthought  1118 May 31 06:50 ft_memchr.c
+-rw-r--r--  1 deepthought  deepthought  1171 May 31 06:50 ft_memcmp.c
+-rw-r--r--  1 deepthought  deepthought  1147 May 31 06:50 ft_memcpy.c
+-rw-r--r--  1 deepthought  deepthought   992 May 31 06:50 ft_memdel.c
+-rw-r--r--  1 deepthought  deepthought  1176 May 31 06:50 ft_memmove.c
+-rw-r--r--  1 deepthought  deepthought  1032 May 31 06:50 ft_memset.c
+-rw-r--r--  1 deepthought  deepthought   958 May 31 06:50 ft_putchar.c
+-rw-r--r--  1 deepthought  deepthought   970 May 31 06:50 ft_putchar_fd.c
+-rw-r--r--  1 deepthought  deepthought  1005 May 31 06:50 ft_putendl.c
+-rw-r--r--  1 deepthought  deepthought  1143 May 31 06:50 ft_putendl_fd.c
+-rw-r--r--  1 deepthought  deepthought  1119 May 31 06:50 ft_putnbr.c
+-rw-r--r--  1 deepthought  deepthought  1147 May 31 06:50 ft_putnbr_fd.c
+-rw-r--r--  1 deepthought  deepthought  1039 May 31 06:50 ft_putstr.c
+-rw-r--r--  1 deepthought  deepthought  1012 May 31 06:50 ft_putstr_fd.c
+-rw-r--r--  1 deepthought  deepthought  1148 May 31 06:50 ft_strcat.c
+-rw-r--r--  1 deepthought  deepthought  1105 May 31 06:50 ft_strchr.c
+-rw-r--r--  1 deepthought  deepthought   991 May 31 06:50 ft_strclr.c
+-rw-r--r--  1 deepthought  deepthought  1105 May 31 06:50 ft_strcmp.c
+-rw-r--r--  1 deepthought  deepthought  1191 May 31 06:50 ft_strcount.c
+-rw-r--r--  1 deepthought  deepthought  1096 May 31 06:50 ft_strcpy.c
+-rw-r--r--  1 deepthought  deepthought   992 May 31 06:50 ft_strdel.c
+-rw-r--r--  1 deepthought  deepthought  1153 May 31 06:50 ft_strdup.c
+-rw-r--r--  1 deepthought  deepthought  1271 May 31 06:50 ft_strequ.c
+-rw-r--r--  1 deepthought  deepthought  1063 May 31 06:50 ft_striter.c
+-rw-r--r--  1 deepthought  deepthought  1083 May 31 06:50 ft_striteri.c
+-rw-r--r--  1 deepthought  deepthought  1302 May 31 06:50 ft_strjoin.c
+-rw-r--r--  1 deepthought  deepthought  1318 May 31 06:50 ft_strlcat.c
+-rw-r--r--  1 deepthought  deepthought  1055 May 31 06:50 ft_strlen.c
+-rw-r--r--  1 deepthought  deepthought  1174 May 31 06:50 ft_strmap.c
+-rw-r--r--  1 deepthought  deepthought  1202 May 31 06:50 ft_strmapi.c
+-rw-r--r--  1 deepthought  deepthought  1262 May 31 06:50 ft_strncat.c
+-rw-r--r--  1 deepthought  deepthought  1173 May 31 06:50 ft_strncmp.c
+-rw-r--r--  1 deepthought  deepthought  1167 May 31 06:50 ft_strncpy.c
+-rw-r--r--  1 deepthought  deepthought  1276 May 31 06:50 ft_strnequ.c
+-rw-r--r--  1 deepthought  deepthought  1063 May 31 06:50 ft_strnew.c
+-rw-r--r--  1 deepthought  deepthought  1322 May 31 06:50 ft_strnstr.c
+-rw-r--r--  1 deepthought  deepthought  1159 May 31 06:50 ft_strpull_idx.c
+-rw-r--r--  1 deepthought  deepthought  1252 May 31 06:50 ft_strpull_ptr.c
+-rw-r--r--  1 deepthought  deepthought  1162 May 31 06:50 ft_strrchr.c
+-rw-r--r--  1 deepthought  deepthought  1241 May 31 06:50 ft_strrev.c
+-rw-r--r--  1 deepthought  deepthought  1538 May 31 06:50 ft_strsplit.c
+-rw-r--r--  1 deepthought  deepthought  1284 May 31 06:50 ft_strstr.c
+-rw-r--r--  1 deepthought  deepthought  1203 May 31 06:50 ft_strsub.c
+-rw-r--r--  1 deepthought  deepthought  1242 May 31 06:50 ft_strtrim.c
+-rw-r--r--  1 deepthought  deepthought  1002 May 31 06:50 ft_tolower.c
+-rw-r--r--  1 deepthought  deepthought  1003 May 31 06:50 ft_toupper.c
+-rw-r--r--  1 deepthought  deepthought  1115 May 31 06:50 ft_wordlen.c
+-rw-r--r--  1 deepthought  deepthought  4034 May 31 06:50 libft.h
+-rw-r--r--  1 deepthought  deepthought  1057 May 31 06:50 makefile
+
+= libft_basics_1 ===============================================================
+total 528
+-rw-r--r--  1 deepthought  deepthought  1057 May 31 06:50 Makefile
+-rw-r--r--  1 deepthought  deepthought  1450 May 31 06:50 ft_atoi.c
+-rw-r--r--  1 deepthought  deepthought   974 May 31 06:50 ft_bzero.c
+-rw-r--r--  1 deepthought  deepthought  1053 May 31 06:50 ft_intlen.c
+-rw-r--r--  1 deepthought  deepthought  1068 May 31 06:50 ft_isalnum.c
+-rw-r--r--  1 deepthought  deepthought  1033 May 31 06:50 ft_isalpha.c
+-rw-r--r--  1 deepthought  deepthought   997 May 31 06:50 ft_isascii.c
+-rw-r--r--  1 deepthought  deepthought  1005 May 31 06:50 ft_isdigit.c
+-rw-r--r--  1 deepthought  deepthought  1002 May 31 06:50 ft_isprint.c
+-rw-r--r--  1 deepthought  deepthought  1596 May 31 06:50 ft_itoa.c
+-rw-r--r--  1 deepthought  deepthought  1019 May 31 06:50 ft_lstadd.c
+-rw-r--r--  1 deepthought  deepthought  1126 May 31 06:50 ft_lstdel.c
+-rw-r--r--  1 deepthought  deepthought  1081 May 31 06:50 ft_lstdelone.c
+-rw-r--r--  1 deepthought  deepthought  1052 May 31 06:50 ft_lstiter.c
+-rw-r--r--  1 deepthought  deepthought  1218 May 31 06:50 ft_lstmap.c
+-rw-r--r--  1 deepthought  deepthought  1404 May 31 06:50 ft_lstnew.c
+-rw-r--r--  1 deepthought  deepthought  1070 May 31 06:50 ft_memalloc.c
+-rw-r--r--  1 deepthought  deepthought  1247 May 31 06:50 ft_memccpy.c
+-rw-r--r--  1 deepthought  deepthought  1118 May 31 06:50 ft_memchr.c
+-rw-r--r--  1 deepthought  deepthought  1171 May 31 06:50 ft_memcmp.c
+-rw-r--r--  1 deepthought  deepthought  1147 May 31 06:50 ft_memcpy.c
+-rw-r--r--  1 deepthought  deepthought   992 May 31 06:50 ft_memdel.c
+-rw-r--r--  1 deepthought  deepthought  1176 May 31 06:50 ft_memmove.c
+-rw-r--r--  1 deepthought  deepthought  1032 May 31 06:50 ft_memset.c
+-rw-r--r--  1 deepthought  deepthought   958 May 31 06:50 ft_putchar.c
+-rw-r--r--  1 deepthought  deepthought   970 May 31 06:50 ft_putchar_fd.c
+-rw-r--r--  1 deepthought  deepthought  1005 May 31 06:50 ft_putendl.c
+-rw-r--r--  1 deepthought  deepthought  1143 May 31 06:50 ft_putendl_fd.c
+-rw-r--r--  1 deepthought  deepthought  1119 May 31 06:50 ft_putnbr.c
+-rw-r--r--  1 deepthought  deepthought  1147 May 31 06:50 ft_putnbr_fd.c
+-rw-r--r--  1 deepthought  deepthought  1039 May 31 06:50 ft_putstr.c
+-rw-r--r--  1 deepthought  deepthought  1012 May 31 06:50 ft_putstr_fd.c
+-rw-r--r--  1 deepthought  deepthought  1148 May 31 06:50 ft_strcat.c
+-rw-r--r--  1 deepthought  deepthought  1105 May 31 06:50 ft_strchr.c
+-rw-r--r--  1 deepthought  deepthought   991 May 31 06:50 ft_strclr.c
+-rw-r--r--  1 deepthought  deepthought  1105 May 31 06:50 ft_strcmp.c
+-rw-r--r--  1 deepthought  deepthought  1191 May 31 06:50 ft_strcount.c
+-rw-r--r--  1 deepthought  deepthought  1096 May 31 06:50 ft_strcpy.c
+-rw-r--r--  1 deepthought  deepthought   992 May 31 06:50 ft_strdel.c
+-rw-r--r--  1 deepthought  deepthought  1153 May 31 06:50 ft_strdup.c
+-rw-r--r--  1 deepthought  deepthought  1271 May 31 06:50 ft_strequ.c
+-rw-r--r--  1 deepthought  deepthought  1063 May 31 06:50 ft_striter.c
+-rw-r--r--  1 deepthought  deepthought  1083 May 31 06:50 ft_striteri.c
+-rw-r--r--  1 deepthought  deepthought  1302 May 31 06:50 ft_strjoin.c
+-rw-r--r--  1 deepthought  deepthought  1318 May 31 06:50 ft_strlcat.c
+-rw-r--r--  1 deepthought  deepthought  1055 May 31 06:50 ft_strlen.c
+-rw-r--r--  1 deepthought  deepthought  1174 May 31 06:50 ft_strmap.c
+-rw-r--r--  1 deepthought  deepthought  1202 May 31 06:50 ft_strmapi.c
+-rw-r--r--  1 deepthought  deepthought  1262 May 31 06:50 ft_strncat.c
+-rw-r--r--  1 deepthought  deepthought  1173 May 31 06:50 ft_strncmp.c
+-rw-r--r--  1 deepthought  deepthought  1167 May 31 06:50 ft_strncpy.c
+-rw-r--r--  1 deepthought  deepthought  1276 May 31 06:50 ft_strnequ.c
+-rw-r--r--  1 deepthought  deepthought  1063 May 31 06:50 ft_strnew.c
+-rw-r--r--  1 deepthought  deepthought  1322 May 31 06:50 ft_strnstr.c
+-rw-r--r--  1 deepthought  deepthought  1159 May 31 06:50 ft_strpull_idx.c
+-rw-r--r--  1 deepthought  deepthought  1252 May 31 06:50 ft_strpull_ptr.c
+-rw-r--r--  1 deepthought  deepthought  1162 May 31 06:50 ft_strrchr.c
+-rw-r--r--  1 deepthought  deepthought  1241 May 31 06:50 ft_strrev.c
+-rw-r--r--  1 deepthought  deepthought  1538 May 31 06:50 ft_strsplit.c
+-rw-r--r--  1 deepthought  deepthought  1284 May 31 06:50 ft_strstr.c
+-rw-r--r--  1 deepthought  deepthought  1203 May 31 06:50 ft_strsub.c
+-rw-r--r--  1 deepthought  deepthought  1242 May 31 06:50 ft_strtrim.c
+-rw-r--r--  1 deepthought  deepthought  1002 May 31 06:50 ft_tolower.c
+-rw-r--r--  1 deepthought  deepthought  1003 May 31 06:50 ft_toupper.c
+-rw-r--r--  1 deepthought  deepthought  1115 May 31 06:50 ft_wordlen.c
+-rw-r--r--  1 deepthought  deepthought  4034 May 31 06:50 libft.h
+
+rm -f *.o
+
+gcc -c -Wall -Werror -Wextra ft_atoi.c ft_bzero.c ft_isalnum.c ft_isalpha.c ft_isascii.c ft_isdigit.c ft_isprint.c ft_memccpy.c ft_memchr.c ft_memcmp.c ft_memcpy.c ft_memmove.c ft_memset.c ft_strcat.c ft_strchr.c ft_strcmp.c ft_strcpy.c ft_strdup.c ft_strlcat.c ft_strlen.c ft_strncat.c ft_strncpy.c ft_strrchr.c ft_strstr.c ft_tolower.c ft_toupper.c ft_strnstr.c ft_strncmp.c ft_memalloc.c ft_memdel.c ft_strnew.c ft_strdel.c ft_strclr.c ft_putchar.c ft_strpull_ptr.c ft_strpull_idx.c ft_putstr.c ft_putchar_fd.c ft_striter.c ft_striteri.c ft_strmap.c ft_strmapi.c ft_strequ.c ft_strnequ.c ft_strsub.c ft_strjoin.c ft_strtrim.c ft_strsplit.c ft_lstdel.c ft_itoa.c ft_putendl.c ft_putnbr.c ft_putstr_fd.c ft_putendl_fd.c ft_strcount.c ft_lstdelone.c ft_putnbr_fd.c ft_strrev.c ft_wordlen.c ft_intlen.c ft_lstadd.c ft_lstnew.c ft_lstiter.c ft_lstmap.c  -I. -c
+ar -rc libft.a *.o
+ranlib libft.a
+
+rm -f *.o
+rm -f libft.a
+
+gcc -c -Wall -Werror -Wextra ft_atoi.c ft_bzero.c ft_isalnum.c ft_isalpha.c ft_isascii.c ft_isdigit.c ft_isprint.c ft_memccpy.c ft_memchr.c ft_memcmp.c ft_memcpy.c ft_memmove.c ft_memset.c ft_strcat.c ft_strchr.c ft_strcmp.c ft_strcpy.c ft_strdup.c ft_strlcat.c ft_strlen.c ft_strncat.c ft_strncpy.c ft_strrchr.c ft_strstr.c ft_tolower.c ft_toupper.c ft_strnstr.c ft_strncmp.c ft_memalloc.c ft_memdel.c ft_strnew.c ft_strdel.c ft_strclr.c ft_putchar.c ft_strpull_ptr.c ft_strpull_idx.c ft_putstr.c ft_putchar_fd.c ft_striter.c ft_striteri.c ft_strmap.c ft_strmapi.c ft_strequ.c ft_strnequ.c ft_strsub.c ft_strjoin.c ft_strtrim.c ft_strsplit.c ft_lstdel.c ft_itoa.c ft_putendl.c ft_putnbr.c ft_putstr_fd.c ft_putendl_fd.c ft_strcount.c ft_lstdelone.c ft_putnbr_fd.c ft_strrev.c ft_wordlen.c ft_intlen.c ft_lstadd.c ft_lstnew.c ft_lstiter.c ft_lstmap.c  -I. -c
+ar -rc libft.a *.o
+ranlib libft.a
+
+rm -f *.o
+rm -f libft.a
+gcc -c -Wall -Werror -Wextra ft_atoi.c ft_bzero.c ft_isalnum.c ft_isalpha.c ft_isascii.c ft_isdigit.c ft_isprint.c ft_memccpy.c ft_memchr.c ft_memcmp.c ft_memcpy.c ft_memmove.c ft_memset.c ft_strcat.c ft_strchr.c ft_strcmp.c ft_strcpy.c ft_strdup.c ft_strlcat.c ft_strlen.c ft_strncat.c ft_strncpy.c ft_strrchr.c ft_strstr.c ft_tolower.c ft_toupper.c ft_strnstr.c ft_strncmp.c ft_memalloc.c ft_memdel.c ft_strnew.c ft_strdel.c ft_strclr.c ft_putchar.c ft_strpull_ptr.c ft_strpull_idx.c ft_putstr.c ft_putchar_fd.c ft_striter.c ft_striteri.c ft_strmap.c ft_strmapi.c ft_strequ.c ft_strnequ.c ft_strsub.c ft_strjoin.c ft_strtrim.c ft_strsplit.c ft_lstdel.c ft_itoa.c ft_putendl.c ft_putnbr.c ft_putstr_fd.c ft_putendl_fd.c ft_strcount.c ft_lstdelone.c ft_putnbr_fd.c ft_strrev.c ft_wordlen.c ft_intlen.c ft_lstadd.c ft_lstnew.c ft_lstiter.c ft_lstmap.c  -I. -c
+ar -rc libft.a *.o
+ranlib libft.a
+
+-rw-r--r--  1 deepthought  deepthought  58944 May 31 06:51 libft.a
+
+gcc -Wall -Wextra -Werror -g3   -c -o test_ft_atoi.o test_ft_atoi.c
+gcc -Wall -Wextra -Werror -g3   -c -o test_ft_bzero.o test_ft_bzero.c
+gcc -Wall -Wextra -Werror -g3   -c -o test_ft_isalnum.o test_ft_isalnum.c
+gcc -Wall -Wextra -Werror -g3   -c -o test_ft_isalpha.o test_ft_isalpha.c
+gcc -Wall -Wextra -Werror -g3   -c -o test_ft_isascii.o test_ft_isascii.c
+gcc -Wall -Wextra -Werror -g3   -c -o test_ft_isdigit.o test_ft_isdigit.c
+gcc -Wall -Wextra -Werror -g3   -c -o test_ft_isprint.o test_ft_isprint.c
+gcc -Wall -Wextra -Werror -g3   -c -o test_ft_memccpy.o test_ft_memccpy.c
+gcc -Wall -Wextra -Werror -g3   -c -o test_ft_memchr.o test_ft_memchr.c
+gcc -Wall -Wextra -Werror -g3   -c -o test_ft_memcmp.o test_ft_memcmp.c
+gcc -Wall -Wextra -Werror -g3   -c -o test_ft_memcpy.o test_ft_memcpy.c
+gcc -Wall -Wextra -Werror -g3   -c -o test_ft_memmove.o test_ft_memmove.c
+gcc -Wall -Wextra -Werror -g3   -c -o test_ft_memset.o test_ft_memset.c
+gcc -Wall -Wextra -Werror -g3   -c -o test_ft_strcat.o test_ft_strcat.c
+gcc -Wall -Wextra -Werror -g3   -c -o test_ft_strchr.o test_ft_strchr.c
+gcc -Wall -Wextra -Werror -g3   -c -o test_ft_strcmp.o test_ft_strcmp.c
+gcc -Wall -Wextra -Werror -g3   -c -o test_ft_strcpy.o test_ft_strcpy.c
+gcc -Wall -Wextra -Werror -g3   -c -o test_ft_strdup.o test_ft_strdup.c
+gcc -Wall -Wextra -Werror -g3   -c -o test_ft_strlcat.o test_ft_strlcat.c
+gcc -Wall -Wextra -Werror -g3   -c -o test_ft_strlen.o test_ft_strlen.c
+gcc -Wall -Wextra -Werror -g3   -c -o test_ft_strncat.o test_ft_strncat.c
+gcc -Wall -Wextra -Werror -g3   -c -o test_ft_strncmp.o test_ft_strncmp.c
+gcc -Wall -Wextra -Werror -g3   -c -o test_ft_strncpy.o test_ft_strncpy.c
+gcc -Wall -Wextra -Werror -g3   -c -o test_ft_strnstr.o test_ft_strnstr.c
+gcc -Wall -Wextra -Werror -g3   -c -o test_ft_strrchr.o test_ft_strrchr.c
+gcc -Wall -Wextra -Werror -g3   -c -o test_ft_strstr.o test_ft_strstr.c
+gcc -Wall -Wextra -Werror -g3   -c -o test_ft_tolower.o test_ft_tolower.c
+gcc -Wall -Wextra -Werror -g3   -c -o test_ft_toupper.o test_ft_toupper.c
+gcc -Wall -Wextra -Werror -g3   -c -o main.o main.c
+gcc -Wall -Wextra -Werror -g3 -o test_lib -L. -lft test_ft_atoi.o test_ft_bzero.o test_ft_isalnum.o test_ft_isalpha.o test_ft_isascii.o test_ft_isdigit.o test_ft_isprint.o test_ft_memccpy.o test_ft_memchr.o test_ft_memcmp.o test_ft_memcpy.o test_ft_memmove.o test_ft_memset.o test_ft_strcat.o test_ft_strchr.o test_ft_strcmp.o test_ft_strcpy.o test_ft_strdup.o test_ft_strlcat.o test_ft_strlen.o test_ft_strncat.o test_ft_strncmp.o test_ft_strncpy.o test_ft_strnstr.o test_ft_strrchr.o test_ft_strstr.o test_ft_tolower.o test_ft_toupper.o main.o
+
+Testing ft_atoi
+ [*] ft_atoi : [ok]
+Testing ft_bzero
+ [*] ft_bzero : [ok]
+Testing ft_isalnum
+ [*] ft_isalnum : [ok]
+Testing ft_isalpha
+ [*] ft_isalpha : [ok]
+Testing ft_isascii
+ [*] ft_isascii : [ok]
+Testing ft_isdigit
+ [*] ft_isdigit : [ok]
+Testing ft_isprint
+ [*] ft_isprint : [ok]
+Testing ft_memccpy
+ [*] ft_memccpy : [ok]
+Testing ft_memchr
+ [*] ft_memchr : [ok]
+Testing ft_memcmp
+ [*] ft_memcmp : [ok]
+Testing ft_memcpy
+ [*] ft_memcpy : [ok]
+Testing ft_memmove
+ [*] ft_memmove : [ok]
+Testing ft_memset
+ [*] ft_memset : [ok]
+Testing ft_strcat
+ [*] ft_strcat : [ok]
+Testing ft_strchr
+ [*] ft_strchr : [ok]
+Testing ft_strcmp
+ [*] ft_strcmp : [ok]
+Testing ft_strcpy
+ [*] ft_strcpy : [ok]
+Testing ft_strdup
+ [*] ft_strdup : [ok]
+Testing ft_strlcat
+ [*] ft_strlcat : [ok]
+Testing ft_strlen
+ [*] ft_strlen : [ok]
+Testing ft_strncat
+ [*] ft_strncat : [ok]
+Testing ft_strncmp
+ [*] ft_strncmp : [ok]
+Testing ft_atoi
+ [*] ft_atoi : [ok]
+Testing ft_strnstr
+ [*] ft_strnstr : [ok]
+Testing ft_strrchr
+ [*] ft_strrchr : [ok]
+Testing ft_strstr
+ [*] ft_strstr : [ok]
+Testing ft_tolower
+ [*] ft_tolower : [ok]
+Testing ft_toupper
+ [*] ft_toupper : [ok]
+
+28/28 correct functions
+Grade: 60
+
+= libft_basics_2 ===============================================================
+total 528
+-rw-r--r--  1 deepthought  deepthought  1057 May 31 06:51 Makefile
+-rw-r--r--  1 deepthought  deepthought  1450 May 31 06:51 ft_atoi.c
+-rw-r--r--  1 deepthought  deepthought   974 May 31 06:51 ft_bzero.c
+-rw-r--r--  1 deepthought  deepthought  1053 May 31 06:51 ft_intlen.c
+-rw-r--r--  1 deepthought  deepthought  1068 May 31 06:51 ft_isalnum.c
+-rw-r--r--  1 deepthought  deepthought  1033 May 31 06:51 ft_isalpha.c
+-rw-r--r--  1 deepthought  deepthought   997 May 31 06:51 ft_isascii.c
+-rw-r--r--  1 deepthought  deepthought  1005 May 31 06:51 ft_isdigit.c
+-rw-r--r--  1 deepthought  deepthought  1002 May 31 06:51 ft_isprint.c
+-rw-r--r--  1 deepthought  deepthought  1596 May 31 06:51 ft_itoa.c
+-rw-r--r--  1 deepthought  deepthought  1019 May 31 06:51 ft_lstadd.c
+-rw-r--r--  1 deepthought  deepthought  1126 May 31 06:51 ft_lstdel.c
+-rw-r--r--  1 deepthought  deepthought  1081 May 31 06:51 ft_lstdelone.c
+-rw-r--r--  1 deepthought  deepthought  1052 May 31 06:51 ft_lstiter.c
+-rw-r--r--  1 deepthought  deepthought  1218 May 31 06:51 ft_lstmap.c
+-rw-r--r--  1 deepthought  deepthought  1404 May 31 06:51 ft_lstnew.c
+-rw-r--r--  1 deepthought  deepthought  1070 May 31 06:51 ft_memalloc.c
+-rw-r--r--  1 deepthought  deepthought  1247 May 31 06:51 ft_memccpy.c
+-rw-r--r--  1 deepthought  deepthought  1118 May 31 06:51 ft_memchr.c
+-rw-r--r--  1 deepthought  deepthought  1171 May 31 06:51 ft_memcmp.c
+-rw-r--r--  1 deepthought  deepthought  1147 May 31 06:51 ft_memcpy.c
+-rw-r--r--  1 deepthought  deepthought   992 May 31 06:51 ft_memdel.c
+-rw-r--r--  1 deepthought  deepthought  1176 May 31 06:51 ft_memmove.c
+-rw-r--r--  1 deepthought  deepthought  1032 May 31 06:51 ft_memset.c
+-rw-r--r--  1 deepthought  deepthought   958 May 31 06:51 ft_putchar.c
+-rw-r--r--  1 deepthought  deepthought   970 May 31 06:51 ft_putchar_fd.c
+-rw-r--r--  1 deepthought  deepthought  1005 May 31 06:51 ft_putendl.c
+-rw-r--r--  1 deepthought  deepthought  1143 May 31 06:51 ft_putendl_fd.c
+-rw-r--r--  1 deepthought  deepthought  1119 May 31 06:51 ft_putnbr.c
+-rw-r--r--  1 deepthought  deepthought  1147 May 31 06:51 ft_putnbr_fd.c
+-rw-r--r--  1 deepthought  deepthought  1039 May 31 06:51 ft_putstr.c
+-rw-r--r--  1 deepthought  deepthought  1012 May 31 06:51 ft_putstr_fd.c
+-rw-r--r--  1 deepthought  deepthought  1148 May 31 06:51 ft_strcat.c
+-rw-r--r--  1 deepthought  deepthought  1105 May 31 06:51 ft_strchr.c
+-rw-r--r--  1 deepthought  deepthought   991 May 31 06:51 ft_strclr.c
+-rw-r--r--  1 deepthought  deepthought  1105 May 31 06:51 ft_strcmp.c
+-rw-r--r--  1 deepthought  deepthought  1191 May 31 06:51 ft_strcount.c
+-rw-r--r--  1 deepthought  deepthought  1096 May 31 06:51 ft_strcpy.c
+-rw-r--r--  1 deepthought  deepthought   992 May 31 06:51 ft_strdel.c
+-rw-r--r--  1 deepthought  deepthought  1153 May 31 06:51 ft_strdup.c
+-rw-r--r--  1 deepthought  deepthought  1271 May 31 06:51 ft_strequ.c
+-rw-r--r--  1 deepthought  deepthought  1063 May 31 06:51 ft_striter.c
+-rw-r--r--  1 deepthought  deepthought  1083 May 31 06:51 ft_striteri.c
+-rw-r--r--  1 deepthought  deepthought  1302 May 31 06:51 ft_strjoin.c
+-rw-r--r--  1 deepthought  deepthought  1318 May 31 06:51 ft_strlcat.c
+-rw-r--r--  1 deepthought  deepthought  1055 May 31 06:51 ft_strlen.c
+-rw-r--r--  1 deepthought  deepthought  1174 May 31 06:51 ft_strmap.c
+-rw-r--r--  1 deepthought  deepthought  1202 May 31 06:51 ft_strmapi.c
+-rw-r--r--  1 deepthought  deepthought  1262 May 31 06:51 ft_strncat.c
+-rw-r--r--  1 deepthought  deepthought  1173 May 31 06:51 ft_strncmp.c
+-rw-r--r--  1 deepthought  deepthought  1167 May 31 06:51 ft_strncpy.c
+-rw-r--r--  1 deepthought  deepthought  1276 May 31 06:51 ft_strnequ.c
+-rw-r--r--  1 deepthought  deepthought  1063 May 31 06:51 ft_strnew.c
+-rw-r--r--  1 deepthought  deepthought  1322 May 31 06:51 ft_strnstr.c
+-rw-r--r--  1 deepthought  deepthought  1159 May 31 06:51 ft_strpull_idx.c
+-rw-r--r--  1 deepthought  deepthought  1252 May 31 06:51 ft_strpull_ptr.c
+-rw-r--r--  1 deepthought  deepthought  1162 May 31 06:51 ft_strrchr.c
+-rw-r--r--  1 deepthought  deepthought  1241 May 31 06:51 ft_strrev.c
+-rw-r--r--  1 deepthought  deepthought  1538 May 31 06:51 ft_strsplit.c
+-rw-r--r--  1 deepthought  deepthought  1284 May 31 06:51 ft_strstr.c
+-rw-r--r--  1 deepthought  deepthought  1203 May 31 06:51 ft_strsub.c
+-rw-r--r--  1 deepthought  deepthought  1242 May 31 06:51 ft_strtrim.c
+-rw-r--r--  1 deepthought  deepthought  1002 May 31 06:51 ft_tolower.c
+-rw-r--r--  1 deepthought  deepthought  1003 May 31 06:51 ft_toupper.c
+-rw-r--r--  1 deepthought  deepthought  1115 May 31 06:51 ft_wordlen.c
+-rw-r--r--  1 deepthought  deepthought  4034 May 31 06:51 libft.h
+
+rm -f *.o
+
+gcc -c -Wall -Werror -Wextra ft_atoi.c ft_bzero.c ft_isalnum.c ft_isalpha.c ft_isascii.c ft_isdigit.c ft_isprint.c ft_memccpy.c ft_memchr.c ft_memcmp.c ft_memcpy.c ft_memmove.c ft_memset.c ft_strcat.c ft_strchr.c ft_strcmp.c ft_strcpy.c ft_strdup.c ft_strlcat.c ft_strlen.c ft_strncat.c ft_strncpy.c ft_strrchr.c ft_strstr.c ft_tolower.c ft_toupper.c ft_strnstr.c ft_strncmp.c ft_memalloc.c ft_memdel.c ft_strnew.c ft_strdel.c ft_strclr.c ft_putchar.c ft_strpull_ptr.c ft_strpull_idx.c ft_putstr.c ft_putchar_fd.c ft_striter.c ft_striteri.c ft_strmap.c ft_strmapi.c ft_strequ.c ft_strnequ.c ft_strsub.c ft_strjoin.c ft_strtrim.c ft_strsplit.c ft_lstdel.c ft_itoa.c ft_putendl.c ft_putnbr.c ft_putstr_fd.c ft_putendl_fd.c ft_strcount.c ft_lstdelone.c ft_putnbr_fd.c ft_strrev.c ft_wordlen.c ft_intlen.c ft_lstadd.c ft_lstnew.c ft_lstiter.c ft_lstmap.c  -I. -c
+ar -rc libft.a *.o
+ranlib libft.a
+
+rm -f *.o
+rm -f libft.a
+
+gcc -c -Wall -Werror -Wextra ft_atoi.c ft_bzero.c ft_isalnum.c ft_isalpha.c ft_isascii.c ft_isdigit.c ft_isprint.c ft_memccpy.c ft_memchr.c ft_memcmp.c ft_memcpy.c ft_memmove.c ft_memset.c ft_strcat.c ft_strchr.c ft_strcmp.c ft_strcpy.c ft_strdup.c ft_strlcat.c ft_strlen.c ft_strncat.c ft_strncpy.c ft_strrchr.c ft_strstr.c ft_tolower.c ft_toupper.c ft_strnstr.c ft_strncmp.c ft_memalloc.c ft_memdel.c ft_strnew.c ft_strdel.c ft_strclr.c ft_putchar.c ft_strpull_ptr.c ft_strpull_idx.c ft_putstr.c ft_putchar_fd.c ft_striter.c ft_striteri.c ft_strmap.c ft_strmapi.c ft_strequ.c ft_strnequ.c ft_strsub.c ft_strjoin.c ft_strtrim.c ft_strsplit.c ft_lstdel.c ft_itoa.c ft_putendl.c ft_putnbr.c ft_putstr_fd.c ft_putendl_fd.c ft_strcount.c ft_lstdelone.c ft_putnbr_fd.c ft_strrev.c ft_wordlen.c ft_intlen.c ft_lstadd.c ft_lstnew.c ft_lstiter.c ft_lstmap.c  -I. -c
+ar -rc libft.a *.o
+ranlib libft.a
+
+rm -f *.o
+rm -f libft.a
+gcc -c -Wall -Werror -Wextra ft_atoi.c ft_bzero.c ft_isalnum.c ft_isalpha.c ft_isascii.c ft_isdigit.c ft_isprint.c ft_memccpy.c ft_memchr.c ft_memcmp.c ft_memcpy.c ft_memmove.c ft_memset.c ft_strcat.c ft_strchr.c ft_strcmp.c ft_strcpy.c ft_strdup.c ft_strlcat.c ft_strlen.c ft_strncat.c ft_strncpy.c ft_strrchr.c ft_strstr.c ft_tolower.c ft_toupper.c ft_strnstr.c ft_strncmp.c ft_memalloc.c ft_memdel.c ft_strnew.c ft_strdel.c ft_strclr.c ft_putchar.c ft_strpull_ptr.c ft_strpull_idx.c ft_putstr.c ft_putchar_fd.c ft_striter.c ft_striteri.c ft_strmap.c ft_strmapi.c ft_strequ.c ft_strnequ.c ft_strsub.c ft_strjoin.c ft_strtrim.c ft_strsplit.c ft_lstdel.c ft_itoa.c ft_putendl.c ft_putnbr.c ft_putstr_fd.c ft_putendl_fd.c ft_strcount.c ft_lstdelone.c ft_putnbr_fd.c ft_strrev.c ft_wordlen.c ft_intlen.c ft_lstadd.c ft_lstnew.c ft_lstiter.c ft_lstmap.c  -I. -c
+ar -rc libft.a *.o
+ranlib libft.a
+
+-rw-r--r--  1 deepthought  deepthought  58944 May 31 06:51 libft.a
+
+gcc -Wall -Wextra -Werror -g3   -c -o test_ft_strnew.o test_ft_strnew.c
+gcc -Wall -Wextra -Werror -g3   -c -o test_ft_strdel.o test_ft_strdel.c
+gcc -Wall -Wextra -Werror -g3   -c -o test_ft_strclr.o test_ft_strclr.c
+gcc -Wall -Wextra -Werror -g3   -c -o test_ft_striter.o test_ft_striter.c
+gcc -Wall -Wextra -Werror -g3   -c -o test_ft_striteri.o test_ft_striteri.c
+gcc -Wall -Wextra -Werror -g3   -c -o test_ft_strmap.o test_ft_strmap.c
+gcc -Wall -Wextra -Werror -g3   -c -o test_ft_strmapi.o test_ft_strmapi.c
+gcc -Wall -Wextra -Werror -g3   -c -o test_ft_strequ.o test_ft_strequ.c
+gcc -Wall -Wextra -Werror -g3   -c -o test_ft_strnequ.o test_ft_strnequ.c
+gcc -Wall -Wextra -Werror -g3   -c -o test_ft_strsub.o test_ft_strsub.c
+gcc -Wall -Wextra -Werror -g3   -c -o test_ft_strjoin.o test_ft_strjoin.c
+gcc -Wall -Wextra -Werror -g3   -c -o test_ft_strtrim.o test_ft_strtrim.c
+gcc -Wall -Wextra -Werror -g3   -c -o test_ft_strsplit.o test_ft_strsplit.c
+gcc -Wall -Wextra -Werror -g3   -c -o test_ft_itoa.o test_ft_itoa.c
+gcc -Wall -Wextra -Werror -g3   -c -o test_ft_putstr.o test_ft_putstr.c
+gcc -Wall -Wextra -Werror -g3   -c -o test_ft_putchar.o test_ft_putchar.c
+gcc -Wall -Wextra -Werror -g3   -c -o test_ft_putendl.o test_ft_putendl.c
+gcc -Wall -Wextra -Werror -g3   -c -o test_ft_putnbr.o test_ft_putnbr.c
+gcc -Wall -Wextra -Werror -g3   -c -o test_ft_putchar_fd.o test_ft_putchar_fd.c
+gcc -Wall -Wextra -Werror -g3   -c -o test_ft_putendl_fd.o test_ft_putendl_fd.c
+gcc -Wall -Wextra -Werror -g3   -c -o test_ft_putnbr_fd.o test_ft_putnbr_fd.c
+gcc -Wall -Wextra -Werror -g3   -c -o test_ft_putstr_fd.o test_ft_putstr_fd.c
+gcc -Wall -Wextra -Werror -g3   -c -o test_ft_memalloc.o test_ft_memalloc.c
+gcc -Wall -Wextra -Werror -g3   -c -o test_ft_memdel.o test_ft_memdel.c
+gcc -Wall -Wextra -Werror -g3   -c -o main.o main.c
+gcc -Wall -Wextra -Werror -g3 -o test_lib -L. -lft test_ft_strnew.o test_ft_strdel.o test_ft_strclr.o test_ft_striter.o test_ft_striteri.o test_ft_strmap.o test_ft_strmapi.o test_ft_strequ.o test_ft_strnequ.o test_ft_strsub.o test_ft_strjoin.o test_ft_strtrim.o test_ft_strsplit.o test_ft_itoa.o test_ft_putstr.o test_ft_putchar.o test_ft_putendl.o test_ft_putnbr.o test_ft_putchar_fd.o test_ft_putendl_fd.o test_ft_putnbr_fd.o test_ft_putstr_fd.o test_ft_memalloc.o test_ft_memdel.o main.o
+
+Command './test_lib' got killed by a Segmentation fault (Signal -11)
+Grade: 0
+
+= libft_bonus ==================================================================
+total 528
+-rw-r--r--  1 deepthought  deepthought  1057 May 31 06:51 Makefile
+-rw-r--r--  1 deepthought  deepthought  1450 May 31 06:51 ft_atoi.c
+-rw-r--r--  1 deepthought  deepthought   974 May 31 06:51 ft_bzero.c
+-rw-r--r--  1 deepthought  deepthought  1053 May 31 06:51 ft_intlen.c
+-rw-r--r--  1 deepthought  deepthought  1068 May 31 06:51 ft_isalnum.c
+-rw-r--r--  1 deepthought  deepthought  1033 May 31 06:51 ft_isalpha.c
+-rw-r--r--  1 deepthought  deepthought   997 May 31 06:51 ft_isascii.c
+-rw-r--r--  1 deepthought  deepthought  1005 May 31 06:51 ft_isdigit.c
+-rw-r--r--  1 deepthought  deepthought  1002 May 31 06:51 ft_isprint.c
+-rw-r--r--  1 deepthought  deepthought  1596 May 31 06:51 ft_itoa.c
+-rw-r--r--  1 deepthought  deepthought  1019 May 31 06:51 ft_lstadd.c
+-rw-r--r--  1 deepthought  deepthought  1126 May 31 06:51 ft_lstdel.c
+-rw-r--r--  1 deepthought  deepthought  1081 May 31 06:51 ft_lstdelone.c
+-rw-r--r--  1 deepthought  deepthought  1052 May 31 06:51 ft_lstiter.c
+-rw-r--r--  1 deepthought  deepthought  1218 May 31 06:51 ft_lstmap.c
+-rw-r--r--  1 deepthought  deepthought  1404 May 31 06:51 ft_lstnew.c
+-rw-r--r--  1 deepthought  deepthought  1070 May 31 06:51 ft_memalloc.c
+-rw-r--r--  1 deepthought  deepthought  1247 May 31 06:51 ft_memccpy.c
+-rw-r--r--  1 deepthought  deepthought  1118 May 31 06:51 ft_memchr.c
+-rw-r--r--  1 deepthought  deepthought  1171 May 31 06:51 ft_memcmp.c
+-rw-r--r--  1 deepthought  deepthought  1147 May 31 06:51 ft_memcpy.c
+-rw-r--r--  1 deepthought  deepthought   992 May 31 06:51 ft_memdel.c
+-rw-r--r--  1 deepthought  deepthought  1176 May 31 06:51 ft_memmove.c
+-rw-r--r--  1 deepthought  deepthought  1032 May 31 06:51 ft_memset.c
+-rw-r--r--  1 deepthought  deepthought   958 May 31 06:51 ft_putchar.c
+-rw-r--r--  1 deepthought  deepthought   970 May 31 06:51 ft_putchar_fd.c
+-rw-r--r--  1 deepthought  deepthought  1005 May 31 06:51 ft_putendl.c
+-rw-r--r--  1 deepthought  deepthought  1143 May 31 06:51 ft_putendl_fd.c
+-rw-r--r--  1 deepthought  deepthought  1119 May 31 06:51 ft_putnbr.c
+-rw-r--r--  1 deepthought  deepthought  1147 May 31 06:51 ft_putnbr_fd.c
+-rw-r--r--  1 deepthought  deepthought  1039 May 31 06:51 ft_putstr.c
+-rw-r--r--  1 deepthought  deepthought  1012 May 31 06:51 ft_putstr_fd.c
+-rw-r--r--  1 deepthought  deepthought  1148 May 31 06:51 ft_strcat.c
+-rw-r--r--  1 deepthought  deepthought  1105 May 31 06:51 ft_strchr.c
+-rw-r--r--  1 deepthought  deepthought   991 May 31 06:51 ft_strclr.c
+-rw-r--r--  1 deepthought  deepthought  1105 May 31 06:51 ft_strcmp.c
+-rw-r--r--  1 deepthought  deepthought  1191 May 31 06:51 ft_strcount.c
+-rw-r--r--  1 deepthought  deepthought  1096 May 31 06:51 ft_strcpy.c
+-rw-r--r--  1 deepthought  deepthought   992 May 31 06:51 ft_strdel.c
+-rw-r--r--  1 deepthought  deepthought  1153 May 31 06:51 ft_strdup.c
+-rw-r--r--  1 deepthought  deepthought  1271 May 31 06:51 ft_strequ.c
+-rw-r--r--  1 deepthought  deepthought  1063 May 31 06:51 ft_striter.c
+-rw-r--r--  1 deepthought  deepthought  1083 May 31 06:51 ft_striteri.c
+-rw-r--r--  1 deepthought  deepthought  1302 May 31 06:51 ft_strjoin.c
+-rw-r--r--  1 deepthought  deepthought  1318 May 31 06:51 ft_strlcat.c
+-rw-r--r--  1 deepthought  deepthought  1055 May 31 06:51 ft_strlen.c
+-rw-r--r--  1 deepthought  deepthought  1174 May 31 06:51 ft_strmap.c
+-rw-r--r--  1 deepthought  deepthought  1202 May 31 06:51 ft_strmapi.c
+-rw-r--r--  1 deepthought  deepthought  1262 May 31 06:51 ft_strncat.c
+-rw-r--r--  1 deepthought  deepthought  1173 May 31 06:51 ft_strncmp.c
+-rw-r--r--  1 deepthought  deepthought  1167 May 31 06:51 ft_strncpy.c
+-rw-r--r--  1 deepthought  deepthought  1276 May 31 06:51 ft_strnequ.c
+-rw-r--r--  1 deepthought  deepthought  1063 May 31 06:51 ft_strnew.c
+-rw-r--r--  1 deepthought  deepthought  1322 May 31 06:51 ft_strnstr.c
+-rw-r--r--  1 deepthought  deepthought  1159 May 31 06:51 ft_strpull_idx.c
+-rw-r--r--  1 deepthought  deepthought  1252 May 31 06:51 ft_strpull_ptr.c
+-rw-r--r--  1 deepthought  deepthought  1162 May 31 06:51 ft_strrchr.c
+-rw-r--r--  1 deepthought  deepthought  1241 May 31 06:51 ft_strrev.c
+-rw-r--r--  1 deepthought  deepthought  1538 May 31 06:51 ft_strsplit.c
+-rw-r--r--  1 deepthought  deepthought  1284 May 31 06:51 ft_strstr.c
+-rw-r--r--  1 deepthought  deepthought  1203 May 31 06:51 ft_strsub.c
+-rw-r--r--  1 deepthought  deepthought  1242 May 31 06:51 ft_strtrim.c
+-rw-r--r--  1 deepthought  deepthought  1002 May 31 06:51 ft_tolower.c
+-rw-r--r--  1 deepthought  deepthought  1003 May 31 06:51 ft_toupper.c
+-rw-r--r--  1 deepthought  deepthought  1115 May 31 06:51 ft_wordlen.c
+-rw-r--r--  1 deepthought  deepthought  4034 May 31 06:51 libft.h
+
+rm -f *.o
+
+gcc -c -Wall -Werror -Wextra ft_atoi.c ft_bzero.c ft_isalnum.c ft_isalpha.c ft_isascii.c ft_isdigit.c ft_isprint.c ft_memccpy.c ft_memchr.c ft_memcmp.c ft_memcpy.c ft_memmove.c ft_memset.c ft_strcat.c ft_strchr.c ft_strcmp.c ft_strcpy.c ft_strdup.c ft_strlcat.c ft_strlen.c ft_strncat.c ft_strncpy.c ft_strrchr.c ft_strstr.c ft_tolower.c ft_toupper.c ft_strnstr.c ft_strncmp.c ft_memalloc.c ft_memdel.c ft_strnew.c ft_strdel.c ft_strclr.c ft_putchar.c ft_strpull_ptr.c ft_strpull_idx.c ft_putstr.c ft_putchar_fd.c ft_striter.c ft_striteri.c ft_strmap.c ft_strmapi.c ft_strequ.c ft_strnequ.c ft_strsub.c ft_strjoin.c ft_strtrim.c ft_strsplit.c ft_lstdel.c ft_itoa.c ft_putendl.c ft_putnbr.c ft_putstr_fd.c ft_putendl_fd.c ft_strcount.c ft_lstdelone.c ft_putnbr_fd.c ft_strrev.c ft_wordlen.c ft_intlen.c ft_lstadd.c ft_lstnew.c ft_lstiter.c ft_lstmap.c  -I. -c
+ar -rc libft.a *.o
+ranlib libft.a
+
+rm -f *.o
+rm -f libft.a
+
+gcc -c -Wall -Werror -Wextra ft_atoi.c ft_bzero.c ft_isalnum.c ft_isalpha.c ft_isascii.c ft_isdigit.c ft_isprint.c ft_memccpy.c ft_memchr.c ft_memcmp.c ft_memcpy.c ft_memmove.c ft_memset.c ft_strcat.c ft_strchr.c ft_strcmp.c ft_strcpy.c ft_strdup.c ft_strlcat.c ft_strlen.c ft_strncat.c ft_strncpy.c ft_strrchr.c ft_strstr.c ft_tolower.c ft_toupper.c ft_strnstr.c ft_strncmp.c ft_memalloc.c ft_memdel.c ft_strnew.c ft_strdel.c ft_strclr.c ft_putchar.c ft_strpull_ptr.c ft_strpull_idx.c ft_putstr.c ft_putchar_fd.c ft_striter.c ft_striteri.c ft_strmap.c ft_strmapi.c ft_strequ.c ft_strnequ.c ft_strsub.c ft_strjoin.c ft_strtrim.c ft_strsplit.c ft_lstdel.c ft_itoa.c ft_putendl.c ft_putnbr.c ft_putstr_fd.c ft_putendl_fd.c ft_strcount.c ft_lstdelone.c ft_putnbr_fd.c ft_strrev.c ft_wordlen.c ft_intlen.c ft_lstadd.c ft_lstnew.c ft_lstiter.c ft_lstmap.c  -I. -c
+ar -rc libft.a *.o
+ranlib libft.a
+
+rm -f *.o
+rm -f libft.a
+gcc -c -Wall -Werror -Wextra ft_atoi.c ft_bzero.c ft_isalnum.c ft_isalpha.c ft_isascii.c ft_isdigit.c ft_isprint.c ft_memccpy.c ft_memchr.c ft_memcmp.c ft_memcpy.c ft_memmove.c ft_memset.c ft_strcat.c ft_strchr.c ft_strcmp.c ft_strcpy.c ft_strdup.c ft_strlcat.c ft_strlen.c ft_strncat.c ft_strncpy.c ft_strrchr.c ft_strstr.c ft_tolower.c ft_toupper.c ft_strnstr.c ft_strncmp.c ft_memalloc.c ft_memdel.c ft_strnew.c ft_strdel.c ft_strclr.c ft_putchar.c ft_strpull_ptr.c ft_strpull_idx.c ft_putstr.c ft_putchar_fd.c ft_striter.c ft_striteri.c ft_strmap.c ft_strmapi.c ft_strequ.c ft_strnequ.c ft_strsub.c ft_strjoin.c ft_strtrim.c ft_strsplit.c ft_lstdel.c ft_itoa.c ft_putendl.c ft_putnbr.c ft_putstr_fd.c ft_putendl_fd.c ft_strcount.c ft_lstdelone.c ft_putnbr_fd.c ft_strrev.c ft_wordlen.c ft_intlen.c ft_lstadd.c ft_lstnew.c ft_lstiter.c ft_lstmap.c  -I. -c
+ar -rc libft.a *.o
+ranlib libft.a
+
+-rw-r--r--  1 deepthought  deepthought  58944 May 31 06:51 libft.a
+
+gcc -Wall -Wextra -Werror -g3   -c -o test_ft_lstadd.o test_ft_lstadd.c
+gcc -Wall -Wextra -Werror -g3   -c -o test_ft_lstdel.o test_ft_lstdel.c
+gcc -Wall -Wextra -Werror -g3   -c -o test_ft_lstdelone.o test_ft_lstdelone.c
+gcc -Wall -Wextra -Werror -g3   -c -o test_ft_lstiter.o test_ft_lstiter.c
+gcc -Wall -Wextra -Werror -g3   -c -o test_ft_lstmap.o test_ft_lstmap.c
+gcc -Wall -Wextra -Werror -g3   -c -o test_ft_lstnew.o test_ft_lstnew.c
+gcc -Wall -Wextra -Werror -g3   -c -o main.o main.c
+gcc -Wall -Wextra -Werror -g3 -o test_lib -L. -lft test_ft_lstadd.o test_ft_lstdel.o test_ft_lstdelone.o test_ft_lstiter.o test_ft_lstmap.o test_ft_lstnew.o main.o
+
+Testing ft_lstadd
+ [*] Using ft_lstadd(&list2, list) where both list are zeroed t_list structs
+ [*] ft_lstadd : [ok]
+Testing ft_lstdel
+ [*] Applying a function that zeroes an int-size memory chunk before delete
+ [*] ft_lstdel : [ok]
+Testing ft_lstdelone
+ [*] Applying a function that zeroes an int-size memory chunk before delete
+ [*] ft_lstdelone : [ok]
+Testing ft_lstiter
+ [*] Applying a function that set content_size to 42 on each links
+ [*] ft_lstiter : [ok]
+Testing ft_lstmap
+ [*] Applying a function that doubles content_size and set strings in content to Uppercase
+ [*] ft_lstmap : [ok]
+Testing ft_lstnew
+ [*] ft_lstnew : [ok]
+
+6/6 correct functions
+Grade: 25
+
+= Final grade: 60 ==============================================================
