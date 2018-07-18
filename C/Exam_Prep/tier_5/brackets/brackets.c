@@ -121,8 +121,7 @@ int		checkbrackets(char *str, int i)
 int		isvalid(char *str)
 {
 	int		i;
-	int		x;
-	char	tmp;
+	// int		x;
 
 	i = 0;
 
@@ -130,8 +129,8 @@ int		isvalid(char *str)
 	{
 		if (str[i] == '(' || str[i] == '[' || str[i] == '{')
 		{
-			x = checkbrackets(str, i);
-			if (x < 0)
+			i = checkbrackets(str, i);
+			if (i < 0)
 				return (0);
 		}
 		i++;
@@ -144,20 +143,20 @@ void	brackets(char *str)
 {	
 	if (vaildbrack(str) != 0)
 	{
-		ft_putstr("Error");
+		ft_putstr("Error\n");
 		return ;
 	}
 	if (isempt(str) > 0)
 	{
-		ft_putstr("OK");
+		ft_putstr("OK\n");
 		return ;
 	}
 	if (isvalid(str) == 1)
 	{
-		ft_putstr("OK");
+		ft_putstr("OK\n");
 		return ;
 	}
-	ft_putstr("Error");
+	ft_putstr("Error\n");
 }
 
 
@@ -170,6 +169,7 @@ int main(int arc, char **arv)
 	if (arc > 1)
 		while(arv[i])
 			brackets(arv[i++]);
-	write(1, "\n", 2);
+	else
+		write(1, "\n", 1);
 	return (1);
 }
