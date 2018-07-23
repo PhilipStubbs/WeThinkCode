@@ -67,6 +67,60 @@ int		isempt(char *str)
 	return (0);
 }
 
+
+void	isvalid (char *str)
+{
+	int	i;
+
+	i = 0;
+	while (str[i])
+	{
+		if (str[i] == '(' || str[i] == '[' || str[i] == '{')
+			i = checkbrackets(str, i);
+		i++;
+	}
+}
+
+int		checkbrackets(char *str, int i)
+{
+	if (str[i] == '(')
+	{
+		while (str[i])
+		{
+			if (str[i] == ')')
+				return (i + 1);
+			if (str[i] == '(' || str[i] == '[' || str[i] == '{')
+				checkbrackets(str, i);
+			if (str[i] == ']' || str[i] == '}')
+				return (-1);
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 int		checkbrackets(char *str, int i)
 {
 	char c;
