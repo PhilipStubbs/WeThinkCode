@@ -1,0 +1,330 @@
+= Collected files ==========================================
+$> ls -lAR /var/folders/r9/p7y5v_hd0c1brg_t7rqqvxhh0000gq/T/tmpXZ02h6/user
+total 32
+-rw-r--r--   1 deepthought  deepthought  6076 Aug 17 08:10 __GIT_HISTORY
+-rw-r--r--   1 deepthought  deepthought     8 Aug 17 08:10 author
+drwxr-xr-x   4 deepthought  deepthought   136 Aug 17 08:10 includes
+drwxr-xr-x  77 deepthought  deepthought  2618 Aug 17 08:10 libft
+-rw-r--r--   1 deepthought  deepthought  2416 Aug 17 08:10 makefile
+drwxr-xr-x  31 deepthought  deepthought  1054 Aug 17 08:10 printf_src
+
+/var/folders/r9/p7y5v_hd0c1brg_t7rqqvxhh0000gq/T/tmpXZ02h6/user/includes:
+total 32
+-rw-r--r--  1 deepthought  deepthought  4365 Aug 17 08:10 ft_printf.h
+-rw-r--r--  1 deepthought  deepthought  4677 Aug 17 08:10 libft.h
+
+/var/folders/r9/p7y5v_hd0c1brg_t7rqqvxhh0000gq/T/tmpXZ02h6/user/libft:
+total 600
+-rw-r--r--  1 deepthought  deepthought  1473 Aug 17 08:10 ft_atoi.c
+-rw-r--r--  1 deepthought  deepthought  1428 Aug 17 08:10 ft_atol.c
+-rw-r--r--  1 deepthought  deepthought   983 Aug 17 08:10 ft_bzero.c
+-rw-r--r--  1 deepthought  deepthought  1072 Aug 17 08:10 ft_deldouble.c
+-rw-r--r--  1 deepthought  deepthought  1029 Aug 17 08:10 ft_doublesize.c
+-rw-r--r--  1 deepthought  deepthought  1100 Aug 17 08:10 ft_intcpy.c
+-rw-r--r--  1 deepthought  deepthought  1065 Aug 17 08:10 ft_intlen.c
+-rw-r--r--  1 deepthought  deepthought  1080 Aug 17 08:10 ft_isalnum.c
+-rw-r--r--  1 deepthought  deepthought  1045 Aug 17 08:10 ft_isalpha.c
+-rw-r--r--  1 deepthought  deepthought  1009 Aug 17 08:10 ft_isascii.c
+-rw-r--r--  1 deepthought  deepthought  1017 Aug 17 08:10 ft_isdigit.c
+-rw-r--r--  1 deepthought  deepthought  1014 Aug 17 08:10 ft_isprint.c
+-rw-r--r--  1 deepthought  deepthought  1079 Aug 17 08:10 ft_isspace.c
+-rw-r--r--  1 deepthought  deepthought  1608 Aug 17 08:10 ft_itoa.c
+-rw-r--r--  1 deepthought  deepthought  1031 Aug 17 08:10 ft_lstadd.c
+-rw-r--r--  1 deepthought  deepthought  1138 Aug 17 08:10 ft_lstdel.c
+-rw-r--r--  1 deepthought  deepthought  1093 Aug 17 08:10 ft_lstdelone.c
+-rw-r--r--  1 deepthought  deepthought  1064 Aug 17 08:10 ft_lstiter.c
+-rw-r--r--  1 deepthought  deepthought  1230 Aug 17 08:10 ft_lstmap.c
+-rw-r--r--  1 deepthought  deepthought  1416 Aug 17 08:10 ft_lstnew.c
+-rw-r--r--  1 deepthought  deepthought  1048 Aug 17 08:10 ft_memalloc.c
+-rw-r--r--  1 deepthought  deepthought  1259 Aug 17 08:10 ft_memccpy.c
+-rw-r--r--  1 deepthought  deepthought  1130 Aug 17 08:10 ft_memchr.c
+-rw-r--r--  1 deepthought  deepthought  1183 Aug 17 08:10 ft_memcmp.c
+-rw-r--r--  1 deepthought  deepthought  1159 Aug 17 08:10 ft_memcpy.c
+-rw-r--r--  1 deepthought  deepthought  1004 Aug 17 08:10 ft_memdel.c
+-rw-r--r--  1 deepthought  deepthought  1188 Aug 17 08:10 ft_memmove.c
+-rw-r--r--  1 deepthought  deepthought  1053 Aug 17 08:10 ft_memset.c
+-rw-r--r--  1 deepthought  deepthought  1035 Aug 17 08:10 ft_printchardouble.c
+-rw-r--r--  1 deepthought  deepthought  1075 Aug 17 08:10 ft_printintarray.c
+-rw-r--r--  1 deepthought  deepthought   970 Aug 17 08:10 ft_putchar.c
+-rw-r--r--  1 deepthought  deepthought   982 Aug 17 08:10 ft_putchar_fd.c
+-rw-r--r--  1 deepthought  deepthought  1017 Aug 17 08:10 ft_putendl.c
+-rw-r--r--  1 deepthought  deepthought  1155 Aug 17 08:10 ft_putendl_fd.c
+-rw-r--r--  1 deepthought  deepthought  1131 Aug 17 08:10 ft_putnbr.c
+-rw-r--r--  1 deepthought  deepthought  1159 Aug 17 08:10 ft_putnbr_fd.c
+-rw-r--r--  1 deepthought  deepthought  1051 Aug 17 08:10 ft_putstr.c
+-rw-r--r--  1 deepthought  deepthought  1024 Aug 17 08:10 ft_putstr_fd.c
+-rw-r--r--  1 deepthought  deepthought  1872 Aug 17 08:10 ft_split.c
+-rw-r--r--  1 deepthought  deepthought  1160 Aug 17 08:10 ft_strcat.c
+-rw-r--r--  1 deepthought  deepthought  1117 Aug 17 08:10 ft_strchr.c
+-rw-r--r--  1 deepthought  deepthought  1133 Aug 17 08:10 ft_strchr_idx.c
+-rw-r--r--  1 deepthought  deepthought  1003 Aug 17 08:10 ft_strclr.c
+-rw-r--r--  1 deepthought  deepthought  1117 Aug 17 08:10 ft_strcmp.c
+-rw-r--r--  1 deepthought  deepthought  1203 Aug 17 08:10 ft_strcount.c
+-rw-r--r--  1 deepthought  deepthought  1108 Aug 17 08:10 ft_strcpy.c
+-rw-r--r--  1 deepthought  deepthought  1004 Aug 17 08:10 ft_strdel.c
+-rw-r--r--  1 deepthought  deepthought  1165 Aug 17 08:10 ft_strdup.c
+-rw-r--r--  1 deepthought  deepthought  1283 Aug 17 08:10 ft_strequ.c
+-rw-r--r--  1 deepthought  deepthought  1075 Aug 17 08:10 ft_striter.c
+-rw-r--r--  1 deepthought  deepthought  1095 Aug 17 08:10 ft_striteri.c
+-rw-r--r--  1 deepthought  deepthought  1188 Aug 17 08:10 ft_strjoin.c
+-rw-r--r--  1 deepthought  deepthought  1330 Aug 17 08:10 ft_strlcat.c
+-rw-r--r--  1 deepthought  deepthought  1067 Aug 17 08:10 ft_strlen.c
+-rw-r--r--  1 deepthought  deepthought  1186 Aug 17 08:10 ft_strmap.c
+-rw-r--r--  1 deepthought  deepthought  1214 Aug 17 08:10 ft_strmapi.c
+-rw-r--r--  1 deepthought  deepthought  1247 Aug 17 08:10 ft_strmerge.c
+-rw-r--r--  1 deepthought  deepthought  1274 Aug 17 08:10 ft_strncat.c
+-rw-r--r--  1 deepthought  deepthought  1185 Aug 17 08:10 ft_strncmp.c
+-rw-r--r--  1 deepthought  deepthought  1179 Aug 17 08:10 ft_strncpy.c
+-rw-r--r--  1 deepthought  deepthought  1288 Aug 17 08:10 ft_strnequ.c
+-rw-r--r--  1 deepthought  deepthought  1075 Aug 17 08:10 ft_strnew.c
+-rw-r--r--  1 deepthought  deepthought  1334 Aug 17 08:10 ft_strnstr.c
+-rw-r--r--  1 deepthought  deepthought  1171 Aug 17 08:10 ft_strpull_idx.c
+-rw-r--r--  1 deepthought  deepthought  1264 Aug 17 08:10 ft_strpull_ptr.c
+-rw-r--r--  1 deepthought  deepthought  1174 Aug 17 08:10 ft_strrchr.c
+-rw-r--r--  1 deepthought  deepthought  1253 Aug 17 08:10 ft_strrev.c
+-rw-r--r--  1 deepthought  deepthought  1588 Aug 17 08:10 ft_strsplit.c
+-rw-r--r--  1 deepthought  deepthought  1296 Aug 17 08:10 ft_strstr.c
+-rw-r--r--  1 deepthought  deepthought  1215 Aug 17 08:10 ft_strsub.c
+-rw-r--r--  1 deepthought  deepthought  1237 Aug 17 08:10 ft_strtrim.c
+-rw-r--r--  1 deepthought  deepthought  1014 Aug 17 08:10 ft_tolower.c
+-rw-r--r--  1 deepthought  deepthought  1015 Aug 17 08:10 ft_toupper.c
+-rw-r--r--  1 deepthought  deepthought  1127 Aug 17 08:10 ft_wordlen.c
+-rw-r--r--  1 deepthought  deepthought  3028 Aug 17 08:10 get_next_line.c
+
+/var/folders/r9/p7y5v_hd0c1brg_t7rqqvxhh0000gq/T/tmpXZ02h6/user/printf_src:
+total 232
+-rw-r--r--  1 deepthought  deepthought  2485 Aug 17 08:10 basicchecker.c
+-rw-r--r--  1 deepthought  deepthought  2782 Aug 17 08:10 createpadding.c
+-rw-r--r--  1 deepthought  deepthought  1604 Aug 17 08:10 createstruc.c
+-rw-r--r--  1 deepthought  deepthought  1021 Aug 17 08:10 destroy.c
+-rw-r--r--  1 deepthought  deepthought  1374 Aug 17 08:10 dynamicstring.c
+-rw-r--r--  1 deepthought  deepthought  1647 Aug 17 08:10 findactions_one.c
+-rw-r--r--  1 deepthought  deepthought  1527 Aug 17 08:10 findactions_two.c
+-rw-r--r--  1 deepthought  deepthought  2748 Aug 17 08:10 finddigit.c
+-rw-r--r--  1 deepthought  deepthought  2886 Aug 17 08:10 findhex.c
+-rw-r--r--  1 deepthought  deepthought  2789 Aug 17 08:10 findoct.c
+-rw-r--r--  1 deepthought  deepthought  2562 Aug 17 08:10 findops.c
+-rw-r--r--  1 deepthought  deepthought  2146 Aug 17 08:10 findpointer.c
+-rw-r--r--  1 deepthought  deepthought  3446 Aug 17 08:10 findspecifer.c
+-rw-r--r--  1 deepthought  deepthought  2271 Aug 17 08:10 findunsdigit.c
+-rw-r--r--  1 deepthought  deepthought  1753 Aug 17 08:10 findwchar.c
+-rw-r--r--  1 deepthought  deepthought  2621 Aug 17 08:10 findwstr.c
+-rw-r--r--  1 deepthought  deepthought  2204 Aug 17 08:10 ft_itoa_base.c
+-rw-r--r--  1 deepthought  deepthought  1575 Aug 17 08:10 ft_lltoa.c
+-rw-r--r--  1 deepthought  deepthought  2849 Aug 17 08:10 ft_printf.c
+-rw-r--r--  1 deepthought  deepthought  1420 Aug 17 08:10 ft_uitoa.c
+-rw-r--r--  1 deepthought  deepthought  1242 Aug 17 08:10 handlenonvalid.c
+-rw-r--r--  1 deepthought  deepthought  2142 Aug 17 08:10 hexhash.c
+-rw-r--r--  1 deepthought  deepthought  1418 Aug 17 08:10 lengthmod.c
+-rw-r--r--  1 deepthought  deepthought  1696 Aug 17 08:10 overflowfunc.c
+-rw-r--r--  1 deepthought  deepthought  1590 Aug 17 08:10 paddingsupportfunc.c
+-rw-r--r--  1 deepthought  deepthought  1709 Aug 17 08:10 precision.c
+-rw-r--r--  1 deepthought  deepthought  2925 Aug 17 08:10 strprocessing.c
+-rw-r--r--  1 deepthought  deepthought  1877 Aug 17 08:10 wcharsupport.c
+-rw-r--r--  1 deepthought  deepthought  2628 Aug 17 08:10 wildcard.c
+
+= test_spdpercent ==============================================================
+rm -f *.o
+gcc -c -Wall -Werror -Wextra libft/ft_atoi.c libft/ft_bzero.c libft/ft_isalnum.c libft/ft_isalpha.c libft/ft_isascii.c libft/ft_isdigit.c libft/ft_isprint.c libft/ft_memccpy.c libft/ft_memchr.c libft/ft_memcmp.c libft/ft_memcpy.c libft/ft_memmove.c libft/ft_memset.c libft/ft_strcat.c libft/ft_strchr.c libft/ft_strcmp.c libft/ft_strcpy.c libft/ft_strdup.c libft/ft_strlcat.c libft/ft_strlen.c libft/ft_strncat.c libft/ft_strncpy.c libft/ft_strrchr.c libft/ft_strstr.c libft/ft_tolower.c libft/ft_toupper.c libft/ft_strnstr.c libft/ft_strncmp.c libft/ft_memalloc.c libft/ft_memdel.c libft/ft_strnew.c libft/ft_strdel.c libft/ft_strclr.c libft/ft_putchar.c libft/ft_strpull_ptr.c libft/ft_strpull_idx.c libft/ft_putstr.c libft/ft_putchar_fd.c libft/ft_striter.c libft/ft_striteri.c libft/ft_strmap.c libft/ft_strmapi.c libft/ft_strequ.c libft/ft_strnequ.c libft/ft_strsub.c libft/ft_strjoin.c libft/ft_strtrim.c libft/ft_strsplit.c libft/ft_lstdel.c libft/ft_strchr_idx.c libft/ft_itoa.c libft/ft_pu
+ tendl.c libft/ft_putnbr.c libft/ft_putstr_fd.c libft/ft_putendl_fd.c libft/ft_strcount.c libft/ft_lstdelone.c libft/ft_putnbr_fd.c libft/ft_strrev.c libft/ft_wordlen.c libft/ft_intlen.c libft/ft_lstadd.c libft/ft_lstnew.c libft/ft_lstiter.c libft/ft_lstmap.c libft/get_next_line.c libft/ft_isspace.c  libft/ft_split.c libft/ft_intcpy.c libft/ft_atol.c libft/ft_deldouble.c libft/ft_doublesize.c libft/ft_printchardouble.c libft/ft_printintarray.c libft/ft_strmerge.c printf_src/basicchecker.c printf_src/createpadding.c printf_src/createstruc.c printf_src/destroy.c printf_src/dynamicstring.c printf_src/findhex.c printf_src/findoct.c printf_src/findops.c printf_src/findunsdigit.c printf_src/ft_itoa_base.c printf_src/ft_printf.c  printf_src/ft_uitoa.c printf_src/handlenonvalid.c printf_src/lengthmod.c printf_src/precision.c printf_src/strprocessing.c printf_src/ft_lltoa.c printf_src/wildcard.c printf_src/findwchar.c printf_src/findwstr.c printf_src/wcharsupport.c printf_src/finddigit.c prin
+ tf_src/findpointer.c printf_src/paddingsupportfunc.c printf_src/hexhash.c printf_src/overflowfunc.c printf_src/findspecifer.c printf_src/findactions_one.c printf_src/findactions_two.c  -I.includes/ -c
+ar -rc libftprintf.a *.o
+ranlib libftprintf.a
+rm -f *.o
+rm -f libftprintf.a
+gcc -c -Wall -Werror -Wextra libft/ft_atoi.c libft/ft_bzero.c libft/ft_isalnum.c libft/ft_isalpha.c libft/ft_isascii.c libft/ft_isdigit.c libft/ft_isprint.c libft/ft_memccpy.c libft/ft_memchr.c libft/ft_memcmp.c libft/ft_memcpy.c libft/ft_memmove.c libft/ft_memset.c libft/ft_strcat.c libft/ft_strchr.c libft/ft_strcmp.c libft/ft_strcpy.c libft/ft_strdup.c libft/ft_strlcat.c libft/ft_strlen.c libft/ft_strncat.c libft/ft_strncpy.c libft/ft_strrchr.c libft/ft_strstr.c libft/ft_tolower.c libft/ft_toupper.c libft/ft_strnstr.c libft/ft_strncmp.c libft/ft_memalloc.c libft/ft_memdel.c libft/ft_strnew.c libft/ft_strdel.c libft/ft_strclr.c libft/ft_putchar.c libft/ft_strpull_ptr.c libft/ft_strpull_idx.c libft/ft_putstr.c libft/ft_putchar_fd.c libft/ft_striter.c libft/ft_striteri.c libft/ft_strmap.c libft/ft_strmapi.c libft/ft_strequ.c libft/ft_strnequ.c libft/ft_strsub.c libft/ft_strjoin.c libft/ft_strtrim.c libft/ft_strsplit.c libft/ft_lstdel.c libft/ft_strchr_idx.c libft/ft_itoa.c libft/ft_pu
+ tendl.c libft/ft_putnbr.c libft/ft_putstr_fd.c libft/ft_putendl_fd.c libft/ft_strcount.c libft/ft_lstdelone.c libft/ft_putnbr_fd.c libft/ft_strrev.c libft/ft_wordlen.c libft/ft_intlen.c libft/ft_lstadd.c libft/ft_lstnew.c libft/ft_lstiter.c libft/ft_lstmap.c libft/get_next_line.c libft/ft_isspace.c  libft/ft_split.c libft/ft_intcpy.c libft/ft_atol.c libft/ft_deldouble.c libft/ft_doublesize.c libft/ft_printchardouble.c libft/ft_printintarray.c libft/ft_strmerge.c printf_src/basicchecker.c printf_src/createpadding.c printf_src/createstruc.c printf_src/destroy.c printf_src/dynamicstring.c printf_src/findhex.c printf_src/findoct.c printf_src/findops.c printf_src/findunsdigit.c printf_src/ft_itoa_base.c printf_src/ft_printf.c  printf_src/ft_uitoa.c printf_src/handlenonvalid.c printf_src/lengthmod.c printf_src/precision.c printf_src/strprocessing.c printf_src/ft_lltoa.c printf_src/wildcard.c printf_src/findwchar.c printf_src/findwstr.c printf_src/wcharsupport.c printf_src/finddigit.c prin
+ tf_src/findpointer.c printf_src/paddingsupportfunc.c printf_src/hexhash.c printf_src/overflowfunc.c printf_src/findspecifer.c printf_src/findactions_one.c printf_src/findactions_two.c  -I.includes/ -c
+ar -rc libftprintf.a *.o
+ranlib libftprintf.a
+rm -f *.o
+rm -f libftprintf.a
+gcc -c -Wall -Werror -Wextra libft/ft_atoi.c libft/ft_bzero.c libft/ft_isalnum.c libft/ft_isalpha.c libft/ft_isascii.c libft/ft_isdigit.c libft/ft_isprint.c libft/ft_memccpy.c libft/ft_memchr.c libft/ft_memcmp.c libft/ft_memcpy.c libft/ft_memmove.c libft/ft_memset.c libft/ft_strcat.c libft/ft_strchr.c libft/ft_strcmp.c libft/ft_strcpy.c libft/ft_strdup.c libft/ft_strlcat.c libft/ft_strlen.c libft/ft_strncat.c libft/ft_strncpy.c libft/ft_strrchr.c libft/ft_strstr.c libft/ft_tolower.c libft/ft_toupper.c libft/ft_strnstr.c libft/ft_strncmp.c libft/ft_memalloc.c libft/ft_memdel.c libft/ft_strnew.c libft/ft_strdel.c libft/ft_strclr.c libft/ft_putchar.c libft/ft_strpull_ptr.c libft/ft_strpull_idx.c libft/ft_putstr.c libft/ft_putchar_fd.c libft/ft_striter.c libft/ft_striteri.c libft/ft_strmap.c libft/ft_strmapi.c libft/ft_strequ.c libft/ft_strnequ.c libft/ft_strsub.c libft/ft_strjoin.c libft/ft_strtrim.c libft/ft_strsplit.c libft/ft_lstdel.c libft/ft_strchr_idx.c libft/ft_itoa.c libft/ft_pu
+ tendl.c libft/ft_putnbr.c libft/ft_putstr_fd.c libft/ft_putendl_fd.c libft/ft_strcount.c libft/ft_lstdelone.c libft/ft_putnbr_fd.c libft/ft_strrev.c libft/ft_wordlen.c libft/ft_intlen.c libft/ft_lstadd.c libft/ft_lstnew.c libft/ft_lstiter.c libft/ft_lstmap.c libft/get_next_line.c libft/ft_isspace.c  libft/ft_split.c libft/ft_intcpy.c libft/ft_atol.c libft/ft_deldouble.c libft/ft_doublesize.c libft/ft_printchardouble.c libft/ft_printintarray.c libft/ft_strmerge.c printf_src/basicchecker.c printf_src/createpadding.c printf_src/createstruc.c printf_src/destroy.c printf_src/dynamicstring.c printf_src/findhex.c printf_src/findoct.c printf_src/findops.c printf_src/findunsdigit.c printf_src/ft_itoa_base.c printf_src/ft_printf.c  printf_src/ft_uitoa.c printf_src/handlenonvalid.c printf_src/lengthmod.c printf_src/precision.c printf_src/strprocessing.c printf_src/ft_lltoa.c printf_src/wildcard.c printf_src/findwchar.c printf_src/findwstr.c printf_src/wcharsupport.c printf_src/finddigit.c prin
+ tf_src/findpointer.c printf_src/paddingsupportfunc.c printf_src/hexhash.c printf_src/overflowfunc.c printf_src/findspecifer.c printf_src/findactions_one.c printf_src/findactions_two.c  -I.includes/ -c
+ar -rc libftprintf.a *.o
+ranlib libftprintf.a
+-rw-r--r--  1 deepthought  deepthought  131896 Aug 17 08:10 libftprintf.a
+
+clang -Wall -Wextra -Werror -g3   -c -o test_s.o test_s.c
+clang -Wall -Wextra -Werror -g3   -c -o test_d.o test_d.c
+clang -Wall -Wextra -Werror -g3   -c -o test_p.o test_p.c
+clang -Wall -Wextra -Werror -g3   -c -o test_mix.o test_mix.c
+clang -Wall -Wextra -Werror -g3   -c -o main.o main.c
+clang -Wall -Wextra -Werror -g3 -o test_printf -L. -lftprintf test_s.o test_d.o test_p.o test_mix.o main.o
+
+test_s: [ok]
+test_d: [ok]
+test_p: [ok]
+test_mix: [ok]
+
+4/4 correct functions
+Grade: 40
+
+= test_lsldiouxc ===============================================================
+rm -f *.o
+gcc -c -Wall -Werror -Wextra libft/ft_atoi.c libft/ft_bzero.c libft/ft_isalnum.c libft/ft_isalpha.c libft/ft_isascii.c libft/ft_isdigit.c libft/ft_isprint.c libft/ft_memccpy.c libft/ft_memchr.c libft/ft_memcmp.c libft/ft_memcpy.c libft/ft_memmove.c libft/ft_memset.c libft/ft_strcat.c libft/ft_strchr.c libft/ft_strcmp.c libft/ft_strcpy.c libft/ft_strdup.c libft/ft_strlcat.c libft/ft_strlen.c libft/ft_strncat.c libft/ft_strncpy.c libft/ft_strrchr.c libft/ft_strstr.c libft/ft_tolower.c libft/ft_toupper.c libft/ft_strnstr.c libft/ft_strncmp.c libft/ft_memalloc.c libft/ft_memdel.c libft/ft_strnew.c libft/ft_strdel.c libft/ft_strclr.c libft/ft_putchar.c libft/ft_strpull_ptr.c libft/ft_strpull_idx.c libft/ft_putstr.c libft/ft_putchar_fd.c libft/ft_striter.c libft/ft_striteri.c libft/ft_strmap.c libft/ft_strmapi.c libft/ft_strequ.c libft/ft_strnequ.c libft/ft_strsub.c libft/ft_strjoin.c libft/ft_strtrim.c libft/ft_strsplit.c libft/ft_lstdel.c libft/ft_strchr_idx.c libft/ft_itoa.c libft/ft_pu
+ tendl.c libft/ft_putnbr.c libft/ft_putstr_fd.c libft/ft_putendl_fd.c libft/ft_strcount.c libft/ft_lstdelone.c libft/ft_putnbr_fd.c libft/ft_strrev.c libft/ft_wordlen.c libft/ft_intlen.c libft/ft_lstadd.c libft/ft_lstnew.c libft/ft_lstiter.c libft/ft_lstmap.c libft/get_next_line.c libft/ft_isspace.c  libft/ft_split.c libft/ft_intcpy.c libft/ft_atol.c libft/ft_deldouble.c libft/ft_doublesize.c libft/ft_printchardouble.c libft/ft_printintarray.c libft/ft_strmerge.c printf_src/basicchecker.c printf_src/createpadding.c printf_src/createstruc.c printf_src/destroy.c printf_src/dynamicstring.c printf_src/findhex.c printf_src/findoct.c printf_src/findops.c printf_src/findunsdigit.c printf_src/ft_itoa_base.c printf_src/ft_printf.c  printf_src/ft_uitoa.c printf_src/handlenonvalid.c printf_src/lengthmod.c printf_src/precision.c printf_src/strprocessing.c printf_src/ft_lltoa.c printf_src/wildcard.c printf_src/findwchar.c printf_src/findwstr.c printf_src/wcharsupport.c printf_src/finddigit.c prin
+ tf_src/findpointer.c printf_src/paddingsupportfunc.c printf_src/hexhash.c printf_src/overflowfunc.c printf_src/findspecifer.c printf_src/findactions_one.c printf_src/findactions_two.c  -I.includes/ -c
+ar -rc libftprintf.a *.o
+ranlib libftprintf.a
+rm -f *.o
+rm -f libftprintf.a
+gcc -c -Wall -Werror -Wextra libft/ft_atoi.c libft/ft_bzero.c libft/ft_isalnum.c libft/ft_isalpha.c libft/ft_isascii.c libft/ft_isdigit.c libft/ft_isprint.c libft/ft_memccpy.c libft/ft_memchr.c libft/ft_memcmp.c libft/ft_memcpy.c libft/ft_memmove.c libft/ft_memset.c libft/ft_strcat.c libft/ft_strchr.c libft/ft_strcmp.c libft/ft_strcpy.c libft/ft_strdup.c libft/ft_strlcat.c libft/ft_strlen.c libft/ft_strncat.c libft/ft_strncpy.c libft/ft_strrchr.c libft/ft_strstr.c libft/ft_tolower.c libft/ft_toupper.c libft/ft_strnstr.c libft/ft_strncmp.c libft/ft_memalloc.c libft/ft_memdel.c libft/ft_strnew.c libft/ft_strdel.c libft/ft_strclr.c libft/ft_putchar.c libft/ft_strpull_ptr.c libft/ft_strpull_idx.c libft/ft_putstr.c libft/ft_putchar_fd.c libft/ft_striter.c libft/ft_striteri.c libft/ft_strmap.c libft/ft_strmapi.c libft/ft_strequ.c libft/ft_strnequ.c libft/ft_strsub.c libft/ft_strjoin.c libft/ft_strtrim.c libft/ft_strsplit.c libft/ft_lstdel.c libft/ft_strchr_idx.c libft/ft_itoa.c libft/ft_pu
+ tendl.c libft/ft_putnbr.c libft/ft_putstr_fd.c libft/ft_putendl_fd.c libft/ft_strcount.c libft/ft_lstdelone.c libft/ft_putnbr_fd.c libft/ft_strrev.c libft/ft_wordlen.c libft/ft_intlen.c libft/ft_lstadd.c libft/ft_lstnew.c libft/ft_lstiter.c libft/ft_lstmap.c libft/get_next_line.c libft/ft_isspace.c  libft/ft_split.c libft/ft_intcpy.c libft/ft_atol.c libft/ft_deldouble.c libft/ft_doublesize.c libft/ft_printchardouble.c libft/ft_printintarray.c libft/ft_strmerge.c printf_src/basicchecker.c printf_src/createpadding.c printf_src/createstruc.c printf_src/destroy.c printf_src/dynamicstring.c printf_src/findhex.c printf_src/findoct.c printf_src/findops.c printf_src/findunsdigit.c printf_src/ft_itoa_base.c printf_src/ft_printf.c  printf_src/ft_uitoa.c printf_src/handlenonvalid.c printf_src/lengthmod.c printf_src/precision.c printf_src/strprocessing.c printf_src/ft_lltoa.c printf_src/wildcard.c printf_src/findwchar.c printf_src/findwstr.c printf_src/wcharsupport.c printf_src/finddigit.c prin
+ tf_src/findpointer.c printf_src/paddingsupportfunc.c printf_src/hexhash.c printf_src/overflowfunc.c printf_src/findspecifer.c printf_src/findactions_one.c printf_src/findactions_two.c  -I.includes/ -c
+ar -rc libftprintf.a *.o
+ranlib libftprintf.a
+rm -f *.o
+rm -f libftprintf.a
+gcc -c -Wall -Werror -Wextra libft/ft_atoi.c libft/ft_bzero.c libft/ft_isalnum.c libft/ft_isalpha.c libft/ft_isascii.c libft/ft_isdigit.c libft/ft_isprint.c libft/ft_memccpy.c libft/ft_memchr.c libft/ft_memcmp.c libft/ft_memcpy.c libft/ft_memmove.c libft/ft_memset.c libft/ft_strcat.c libft/ft_strchr.c libft/ft_strcmp.c libft/ft_strcpy.c libft/ft_strdup.c libft/ft_strlcat.c libft/ft_strlen.c libft/ft_strncat.c libft/ft_strncpy.c libft/ft_strrchr.c libft/ft_strstr.c libft/ft_tolower.c libft/ft_toupper.c libft/ft_strnstr.c libft/ft_strncmp.c libft/ft_memalloc.c libft/ft_memdel.c libft/ft_strnew.c libft/ft_strdel.c libft/ft_strclr.c libft/ft_putchar.c libft/ft_strpull_ptr.c libft/ft_strpull_idx.c libft/ft_putstr.c libft/ft_putchar_fd.c libft/ft_striter.c libft/ft_striteri.c libft/ft_strmap.c libft/ft_strmapi.c libft/ft_strequ.c libft/ft_strnequ.c libft/ft_strsub.c libft/ft_strjoin.c libft/ft_strtrim.c libft/ft_strsplit.c libft/ft_lstdel.c libft/ft_strchr_idx.c libft/ft_itoa.c libft/ft_pu
+ tendl.c libft/ft_putnbr.c libft/ft_putstr_fd.c libft/ft_putendl_fd.c libft/ft_strcount.c libft/ft_lstdelone.c libft/ft_putnbr_fd.c libft/ft_strrev.c libft/ft_wordlen.c libft/ft_intlen.c libft/ft_lstadd.c libft/ft_lstnew.c libft/ft_lstiter.c libft/ft_lstmap.c libft/get_next_line.c libft/ft_isspace.c  libft/ft_split.c libft/ft_intcpy.c libft/ft_atol.c libft/ft_deldouble.c libft/ft_doublesize.c libft/ft_printchardouble.c libft/ft_printintarray.c libft/ft_strmerge.c printf_src/basicchecker.c printf_src/createpadding.c printf_src/createstruc.c printf_src/destroy.c printf_src/dynamicstring.c printf_src/findhex.c printf_src/findoct.c printf_src/findops.c printf_src/findunsdigit.c printf_src/ft_itoa_base.c printf_src/ft_printf.c  printf_src/ft_uitoa.c printf_src/handlenonvalid.c printf_src/lengthmod.c printf_src/precision.c printf_src/strprocessing.c printf_src/ft_lltoa.c printf_src/wildcard.c printf_src/findwchar.c printf_src/findwstr.c printf_src/wcharsupport.c printf_src/finddigit.c prin
+ tf_src/findpointer.c printf_src/paddingsupportfunc.c printf_src/hexhash.c printf_src/overflowfunc.c printf_src/findspecifer.c printf_src/findactions_one.c printf_src/findactions_two.c  -I.includes/ -c
+ar -rc libftprintf.a *.o
+ranlib libftprintf.a
+-rw-r--r--  1 deepthought  deepthought  131896 Aug 17 08:10 libftprintf.a
+
+clang -Wall -Wextra -Werror -g3   -c -o test_c.o test_c.c
+clang -Wall -Wextra -Werror -g3   -c -o test_d.o test_d.c
+clang -Wall -Wextra -Werror -g3   -c -o test_i.o test_i.c
+clang -Wall -Wextra -Werror -g3   -c -o test_lc.o test_lc.c
+clang -Wall -Wextra -Werror -g3   -c -o test_ls.o test_ls.c
+clang -Wall -Wextra -Werror -g3   -c -o test_o.o test_o.c
+clang -Wall -Wextra -Werror -g3   -c -o test_u.o test_u.c
+clang -Wall -Wextra -Werror -g3   -c -o test_x.o test_x.c
+clang -Wall -Wextra -Werror -g3   -c -o test_mix.o test_mix.c
+clang -Wall -Wextra -Werror -g3   -c -o main.o main.c
+clang -Wall -Wextra -Werror -g3 -o test_printf -L. -lftprintf test_c.o test_d.o test_i.o test_lc.o test_ls.o test_o.o test_u.o test_x.o test_mix.o main.o
+
+test_c: [ok]
+test_D: [ok]
+test_i: [ok]
+test_C: [ok]
+test_S: [ok]
+test_o: [ok]
+test_u: [ok]
+test_x: [ok]
+test_mix: [ok]
+
+9/9 correct functions
+Grade: 30
+
+= test_hhhllljz ================================================================
+rm -f *.o
+gcc -c -Wall -Werror -Wextra libft/ft_atoi.c libft/ft_bzero.c libft/ft_isalnum.c libft/ft_isalpha.c libft/ft_isascii.c libft/ft_isdigit.c libft/ft_isprint.c libft/ft_memccpy.c libft/ft_memchr.c libft/ft_memcmp.c libft/ft_memcpy.c libft/ft_memmove.c libft/ft_memset.c libft/ft_strcat.c libft/ft_strchr.c libft/ft_strcmp.c libft/ft_strcpy.c libft/ft_strdup.c libft/ft_strlcat.c libft/ft_strlen.c libft/ft_strncat.c libft/ft_strncpy.c libft/ft_strrchr.c libft/ft_strstr.c libft/ft_tolower.c libft/ft_toupper.c libft/ft_strnstr.c libft/ft_strncmp.c libft/ft_memalloc.c libft/ft_memdel.c libft/ft_strnew.c libft/ft_strdel.c libft/ft_strclr.c libft/ft_putchar.c libft/ft_strpull_ptr.c libft/ft_strpull_idx.c libft/ft_putstr.c libft/ft_putchar_fd.c libft/ft_striter.c libft/ft_striteri.c libft/ft_strmap.c libft/ft_strmapi.c libft/ft_strequ.c libft/ft_strnequ.c libft/ft_strsub.c libft/ft_strjoin.c libft/ft_strtrim.c libft/ft_strsplit.c libft/ft_lstdel.c libft/ft_strchr_idx.c libft/ft_itoa.c libft/ft_pu
+ tendl.c libft/ft_putnbr.c libft/ft_putstr_fd.c libft/ft_putendl_fd.c libft/ft_strcount.c libft/ft_lstdelone.c libft/ft_putnbr_fd.c libft/ft_strrev.c libft/ft_wordlen.c libft/ft_intlen.c libft/ft_lstadd.c libft/ft_lstnew.c libft/ft_lstiter.c libft/ft_lstmap.c libft/get_next_line.c libft/ft_isspace.c  libft/ft_split.c libft/ft_intcpy.c libft/ft_atol.c libft/ft_deldouble.c libft/ft_doublesize.c libft/ft_printchardouble.c libft/ft_printintarray.c libft/ft_strmerge.c printf_src/basicchecker.c printf_src/createpadding.c printf_src/createstruc.c printf_src/destroy.c printf_src/dynamicstring.c printf_src/findhex.c printf_src/findoct.c printf_src/findops.c printf_src/findunsdigit.c printf_src/ft_itoa_base.c printf_src/ft_printf.c  printf_src/ft_uitoa.c printf_src/handlenonvalid.c printf_src/lengthmod.c printf_src/precision.c printf_src/strprocessing.c printf_src/ft_lltoa.c printf_src/wildcard.c printf_src/findwchar.c printf_src/findwstr.c printf_src/wcharsupport.c printf_src/finddigit.c prin
+ tf_src/findpointer.c printf_src/paddingsupportfunc.c printf_src/hexhash.c printf_src/overflowfunc.c printf_src/findspecifer.c printf_src/findactions_one.c printf_src/findactions_two.c  -I.includes/ -c
+ar -rc libftprintf.a *.o
+ranlib libftprintf.a
+rm -f *.o
+rm -f libftprintf.a
+gcc -c -Wall -Werror -Wextra libft/ft_atoi.c libft/ft_bzero.c libft/ft_isalnum.c libft/ft_isalpha.c libft/ft_isascii.c libft/ft_isdigit.c libft/ft_isprint.c libft/ft_memccpy.c libft/ft_memchr.c libft/ft_memcmp.c libft/ft_memcpy.c libft/ft_memmove.c libft/ft_memset.c libft/ft_strcat.c libft/ft_strchr.c libft/ft_strcmp.c libft/ft_strcpy.c libft/ft_strdup.c libft/ft_strlcat.c libft/ft_strlen.c libft/ft_strncat.c libft/ft_strncpy.c libft/ft_strrchr.c libft/ft_strstr.c libft/ft_tolower.c libft/ft_toupper.c libft/ft_strnstr.c libft/ft_strncmp.c libft/ft_memalloc.c libft/ft_memdel.c libft/ft_strnew.c libft/ft_strdel.c libft/ft_strclr.c libft/ft_putchar.c libft/ft_strpull_ptr.c libft/ft_strpull_idx.c libft/ft_putstr.c libft/ft_putchar_fd.c libft/ft_striter.c libft/ft_striteri.c libft/ft_strmap.c libft/ft_strmapi.c libft/ft_strequ.c libft/ft_strnequ.c libft/ft_strsub.c libft/ft_strjoin.c libft/ft_strtrim.c libft/ft_strsplit.c libft/ft_lstdel.c libft/ft_strchr_idx.c libft/ft_itoa.c libft/ft_pu
+ tendl.c libft/ft_putnbr.c libft/ft_putstr_fd.c libft/ft_putendl_fd.c libft/ft_strcount.c libft/ft_lstdelone.c libft/ft_putnbr_fd.c libft/ft_strrev.c libft/ft_wordlen.c libft/ft_intlen.c libft/ft_lstadd.c libft/ft_lstnew.c libft/ft_lstiter.c libft/ft_lstmap.c libft/get_next_line.c libft/ft_isspace.c  libft/ft_split.c libft/ft_intcpy.c libft/ft_atol.c libft/ft_deldouble.c libft/ft_doublesize.c libft/ft_printchardouble.c libft/ft_printintarray.c libft/ft_strmerge.c printf_src/basicchecker.c printf_src/createpadding.c printf_src/createstruc.c printf_src/destroy.c printf_src/dynamicstring.c printf_src/findhex.c printf_src/findoct.c printf_src/findops.c printf_src/findunsdigit.c printf_src/ft_itoa_base.c printf_src/ft_printf.c  printf_src/ft_uitoa.c printf_src/handlenonvalid.c printf_src/lengthmod.c printf_src/precision.c printf_src/strprocessing.c printf_src/ft_lltoa.c printf_src/wildcard.c printf_src/findwchar.c printf_src/findwstr.c printf_src/wcharsupport.c printf_src/finddigit.c prin
+ tf_src/findpointer.c printf_src/paddingsupportfunc.c printf_src/hexhash.c printf_src/overflowfunc.c printf_src/findspecifer.c printf_src/findactions_one.c printf_src/findactions_two.c  -I.includes/ -c
+ar -rc libftprintf.a *.o
+ranlib libftprintf.a
+rm -f *.o
+rm -f libftprintf.a
+gcc -c -Wall -Werror -Wextra libft/ft_atoi.c libft/ft_bzero.c libft/ft_isalnum.c libft/ft_isalpha.c libft/ft_isascii.c libft/ft_isdigit.c libft/ft_isprint.c libft/ft_memccpy.c libft/ft_memchr.c libft/ft_memcmp.c libft/ft_memcpy.c libft/ft_memmove.c libft/ft_memset.c libft/ft_strcat.c libft/ft_strchr.c libft/ft_strcmp.c libft/ft_strcpy.c libft/ft_strdup.c libft/ft_strlcat.c libft/ft_strlen.c libft/ft_strncat.c libft/ft_strncpy.c libft/ft_strrchr.c libft/ft_strstr.c libft/ft_tolower.c libft/ft_toupper.c libft/ft_strnstr.c libft/ft_strncmp.c libft/ft_memalloc.c libft/ft_memdel.c libft/ft_strnew.c libft/ft_strdel.c libft/ft_strclr.c libft/ft_putchar.c libft/ft_strpull_ptr.c libft/ft_strpull_idx.c libft/ft_putstr.c libft/ft_putchar_fd.c libft/ft_striter.c libft/ft_striteri.c libft/ft_strmap.c libft/ft_strmapi.c libft/ft_strequ.c libft/ft_strnequ.c libft/ft_strsub.c libft/ft_strjoin.c libft/ft_strtrim.c libft/ft_strsplit.c libft/ft_lstdel.c libft/ft_strchr_idx.c libft/ft_itoa.c libft/ft_pu
+ tendl.c libft/ft_putnbr.c libft/ft_putstr_fd.c libft/ft_putendl_fd.c libft/ft_strcount.c libft/ft_lstdelone.c libft/ft_putnbr_fd.c libft/ft_strrev.c libft/ft_wordlen.c libft/ft_intlen.c libft/ft_lstadd.c libft/ft_lstnew.c libft/ft_lstiter.c libft/ft_lstmap.c libft/get_next_line.c libft/ft_isspace.c  libft/ft_split.c libft/ft_intcpy.c libft/ft_atol.c libft/ft_deldouble.c libft/ft_doublesize.c libft/ft_printchardouble.c libft/ft_printintarray.c libft/ft_strmerge.c printf_src/basicchecker.c printf_src/createpadding.c printf_src/createstruc.c printf_src/destroy.c printf_src/dynamicstring.c printf_src/findhex.c printf_src/findoct.c printf_src/findops.c printf_src/findunsdigit.c printf_src/ft_itoa_base.c printf_src/ft_printf.c  printf_src/ft_uitoa.c printf_src/handlenonvalid.c printf_src/lengthmod.c printf_src/precision.c printf_src/strprocessing.c printf_src/ft_lltoa.c printf_src/wildcard.c printf_src/findwchar.c printf_src/findwstr.c printf_src/wcharsupport.c printf_src/finddigit.c prin
+ tf_src/findpointer.c printf_src/paddingsupportfunc.c printf_src/hexhash.c printf_src/overflowfunc.c printf_src/findspecifer.c printf_src/findactions_one.c printf_src/findactions_two.c  -I.includes/ -c
+ar -rc libftprintf.a *.o
+ranlib libftprintf.a
+-rw-r--r--  1 deepthought  deepthought  131896 Aug 17 08:10 libftprintf.a
+
+clang -Wall -Wextra -Werror -g3   -c -o test_hhhllljz.o test_hhhllljz.c
+clang -Wall -Wextra -Werror -g3   -c -o main.o main.c
+clang -Wall -Wextra -Werror -g3 -o test_printf -L. -lftprintf test_hhhllljz.o main.o
+
+test_hhhllljz: [ok]
+
+1/1 correct functions
+Grade: 15
+
+= test_fields ==================================================================
+rm -f *.o
+gcc -c -Wall -Werror -Wextra libft/ft_atoi.c libft/ft_bzero.c libft/ft_isalnum.c libft/ft_isalpha.c libft/ft_isascii.c libft/ft_isdigit.c libft/ft_isprint.c libft/ft_memccpy.c libft/ft_memchr.c libft/ft_memcmp.c libft/ft_memcpy.c libft/ft_memmove.c libft/ft_memset.c libft/ft_strcat.c libft/ft_strchr.c libft/ft_strcmp.c libft/ft_strcpy.c libft/ft_strdup.c libft/ft_strlcat.c libft/ft_strlen.c libft/ft_strncat.c libft/ft_strncpy.c libft/ft_strrchr.c libft/ft_strstr.c libft/ft_tolower.c libft/ft_toupper.c libft/ft_strnstr.c libft/ft_strncmp.c libft/ft_memalloc.c libft/ft_memdel.c libft/ft_strnew.c libft/ft_strdel.c libft/ft_strclr.c libft/ft_putchar.c libft/ft_strpull_ptr.c libft/ft_strpull_idx.c libft/ft_putstr.c libft/ft_putchar_fd.c libft/ft_striter.c libft/ft_striteri.c libft/ft_strmap.c libft/ft_strmapi.c libft/ft_strequ.c libft/ft_strnequ.c libft/ft_strsub.c libft/ft_strjoin.c libft/ft_strtrim.c libft/ft_strsplit.c libft/ft_lstdel.c libft/ft_strchr_idx.c libft/ft_itoa.c libft/ft_pu
+ tendl.c libft/ft_putnbr.c libft/ft_putstr_fd.c libft/ft_putendl_fd.c libft/ft_strcount.c libft/ft_lstdelone.c libft/ft_putnbr_fd.c libft/ft_strrev.c libft/ft_wordlen.c libft/ft_intlen.c libft/ft_lstadd.c libft/ft_lstnew.c libft/ft_lstiter.c libft/ft_lstmap.c libft/get_next_line.c libft/ft_isspace.c  libft/ft_split.c libft/ft_intcpy.c libft/ft_atol.c libft/ft_deldouble.c libft/ft_doublesize.c libft/ft_printchardouble.c libft/ft_printintarray.c libft/ft_strmerge.c printf_src/basicchecker.c printf_src/createpadding.c printf_src/createstruc.c printf_src/destroy.c printf_src/dynamicstring.c printf_src/findhex.c printf_src/findoct.c printf_src/findops.c printf_src/findunsdigit.c printf_src/ft_itoa_base.c printf_src/ft_printf.c  printf_src/ft_uitoa.c printf_src/handlenonvalid.c printf_src/lengthmod.c printf_src/precision.c printf_src/strprocessing.c printf_src/ft_lltoa.c printf_src/wildcard.c printf_src/findwchar.c printf_src/findwstr.c printf_src/wcharsupport.c printf_src/finddigit.c prin
+ tf_src/findpointer.c printf_src/paddingsupportfunc.c printf_src/hexhash.c printf_src/overflowfunc.c printf_src/findspecifer.c printf_src/findactions_one.c printf_src/findactions_two.c  -I.includes/ -c
+ar -rc libftprintf.a *.o
+ranlib libftprintf.a
+rm -f *.o
+rm -f libftprintf.a
+gcc -c -Wall -Werror -Wextra libft/ft_atoi.c libft/ft_bzero.c libft/ft_isalnum.c libft/ft_isalpha.c libft/ft_isascii.c libft/ft_isdigit.c libft/ft_isprint.c libft/ft_memccpy.c libft/ft_memchr.c libft/ft_memcmp.c libft/ft_memcpy.c libft/ft_memmove.c libft/ft_memset.c libft/ft_strcat.c libft/ft_strchr.c libft/ft_strcmp.c libft/ft_strcpy.c libft/ft_strdup.c libft/ft_strlcat.c libft/ft_strlen.c libft/ft_strncat.c libft/ft_strncpy.c libft/ft_strrchr.c libft/ft_strstr.c libft/ft_tolower.c libft/ft_toupper.c libft/ft_strnstr.c libft/ft_strncmp.c libft/ft_memalloc.c libft/ft_memdel.c libft/ft_strnew.c libft/ft_strdel.c libft/ft_strclr.c libft/ft_putchar.c libft/ft_strpull_ptr.c libft/ft_strpull_idx.c libft/ft_putstr.c libft/ft_putchar_fd.c libft/ft_striter.c libft/ft_striteri.c libft/ft_strmap.c libft/ft_strmapi.c libft/ft_strequ.c libft/ft_strnequ.c libft/ft_strsub.c libft/ft_strjoin.c libft/ft_strtrim.c libft/ft_strsplit.c libft/ft_lstdel.c libft/ft_strchr_idx.c libft/ft_itoa.c libft/ft_pu
+ tendl.c libft/ft_putnbr.c libft/ft_putstr_fd.c libft/ft_putendl_fd.c libft/ft_strcount.c libft/ft_lstdelone.c libft/ft_putnbr_fd.c libft/ft_strrev.c libft/ft_wordlen.c libft/ft_intlen.c libft/ft_lstadd.c libft/ft_lstnew.c libft/ft_lstiter.c libft/ft_lstmap.c libft/get_next_line.c libft/ft_isspace.c  libft/ft_split.c libft/ft_intcpy.c libft/ft_atol.c libft/ft_deldouble.c libft/ft_doublesize.c libft/ft_printchardouble.c libft/ft_printintarray.c libft/ft_strmerge.c printf_src/basicchecker.c printf_src/createpadding.c printf_src/createstruc.c printf_src/destroy.c printf_src/dynamicstring.c printf_src/findhex.c printf_src/findoct.c printf_src/findops.c printf_src/findunsdigit.c printf_src/ft_itoa_base.c printf_src/ft_printf.c  printf_src/ft_uitoa.c printf_src/handlenonvalid.c printf_src/lengthmod.c printf_src/precision.c printf_src/strprocessing.c printf_src/ft_lltoa.c printf_src/wildcard.c printf_src/findwchar.c printf_src/findwstr.c printf_src/wcharsupport.c printf_src/finddigit.c prin
+ tf_src/findpointer.c printf_src/paddingsupportfunc.c printf_src/hexhash.c printf_src/overflowfunc.c printf_src/findspecifer.c printf_src/findactions_one.c printf_src/findactions_two.c  -I.includes/ -c
+ar -rc libftprintf.a *.o
+ranlib libftprintf.a
+rm -f *.o
+rm -f libftprintf.a
+gcc -c -Wall -Werror -Wextra libft/ft_atoi.c libft/ft_bzero.c libft/ft_isalnum.c libft/ft_isalpha.c libft/ft_isascii.c libft/ft_isdigit.c libft/ft_isprint.c libft/ft_memccpy.c libft/ft_memchr.c libft/ft_memcmp.c libft/ft_memcpy.c libft/ft_memmove.c libft/ft_memset.c libft/ft_strcat.c libft/ft_strchr.c libft/ft_strcmp.c libft/ft_strcpy.c libft/ft_strdup.c libft/ft_strlcat.c libft/ft_strlen.c libft/ft_strncat.c libft/ft_strncpy.c libft/ft_strrchr.c libft/ft_strstr.c libft/ft_tolower.c libft/ft_toupper.c libft/ft_strnstr.c libft/ft_strncmp.c libft/ft_memalloc.c libft/ft_memdel.c libft/ft_strnew.c libft/ft_strdel.c libft/ft_strclr.c libft/ft_putchar.c libft/ft_strpull_ptr.c libft/ft_strpull_idx.c libft/ft_putstr.c libft/ft_putchar_fd.c libft/ft_striter.c libft/ft_striteri.c libft/ft_strmap.c libft/ft_strmapi.c libft/ft_strequ.c libft/ft_strnequ.c libft/ft_strsub.c libft/ft_strjoin.c libft/ft_strtrim.c libft/ft_strsplit.c libft/ft_lstdel.c libft/ft_strchr_idx.c libft/ft_itoa.c libft/ft_pu
+ tendl.c libft/ft_putnbr.c libft/ft_putstr_fd.c libft/ft_putendl_fd.c libft/ft_strcount.c libft/ft_lstdelone.c libft/ft_putnbr_fd.c libft/ft_strrev.c libft/ft_wordlen.c libft/ft_intlen.c libft/ft_lstadd.c libft/ft_lstnew.c libft/ft_lstiter.c libft/ft_lstmap.c libft/get_next_line.c libft/ft_isspace.c  libft/ft_split.c libft/ft_intcpy.c libft/ft_atol.c libft/ft_deldouble.c libft/ft_doublesize.c libft/ft_printchardouble.c libft/ft_printintarray.c libft/ft_strmerge.c printf_src/basicchecker.c printf_src/createpadding.c printf_src/createstruc.c printf_src/destroy.c printf_src/dynamicstring.c printf_src/findhex.c printf_src/findoct.c printf_src/findops.c printf_src/findunsdigit.c printf_src/ft_itoa_base.c printf_src/ft_printf.c  printf_src/ft_uitoa.c printf_src/handlenonvalid.c printf_src/lengthmod.c printf_src/precision.c printf_src/strprocessing.c printf_src/ft_lltoa.c printf_src/wildcard.c printf_src/findwchar.c printf_src/findwstr.c printf_src/wcharsupport.c printf_src/finddigit.c prin
+ tf_src/findpointer.c printf_src/paddingsupportfunc.c printf_src/hexhash.c printf_src/overflowfunc.c printf_src/findspecifer.c printf_src/findactions_one.c printf_src/findactions_two.c  -I.includes/ -c
+ar -rc libftprintf.a *.o
+ranlib libftprintf.a
+-rw-r--r--  1 deepthought  deepthought  131896 Aug 17 08:11 libftprintf.a
+
+clang -Wall -Wextra -Werror -g3   -c -o test_sharp.o test_sharp.c
+clang -Wall -Wextra -Werror -g3   -c -o test_precision.o test_precision.c
+clang -Wall -Wextra -Werror -g3   -c -o test_zero.o test_zero.c
+clang -Wall -Wextra -Werror -g3   -c -o test_minus.o test_minus.c
+clang -Wall -Wextra -Werror -g3   -c -o test_plus.o test_plus.c
+clang -Wall -Wextra -Werror -g3   -c -o test_space.o test_space.c
+clang -Wall -Wextra -Werror -g3   -c -o main.o main.c
+clang -Wall -Wextra -Werror -g3 -o test_printf -L. -lftprintf test_sharp.o test_precision.o test_zero.o test_minus.o test_plus.o test_space.o main.o
+
+test_sharp: [ok]
+test_precision: [ko]
+test_zero: [ok]
+test_minus: [ok]
+test_plus: [ok]
+test_space: [ok]
+
+5/6 correct functions
+Grade: 12
+
+= bonus_test ===================================================================
+rm -f *.o
+gcc -c -Wall -Werror -Wextra libft/ft_atoi.c libft/ft_bzero.c libft/ft_isalnum.c libft/ft_isalpha.c libft/ft_isascii.c libft/ft_isdigit.c libft/ft_isprint.c libft/ft_memccpy.c libft/ft_memchr.c libft/ft_memcmp.c libft/ft_memcpy.c libft/ft_memmove.c libft/ft_memset.c libft/ft_strcat.c libft/ft_strchr.c libft/ft_strcmp.c libft/ft_strcpy.c libft/ft_strdup.c libft/ft_strlcat.c libft/ft_strlen.c libft/ft_strncat.c libft/ft_strncpy.c libft/ft_strrchr.c libft/ft_strstr.c libft/ft_tolower.c libft/ft_toupper.c libft/ft_strnstr.c libft/ft_strncmp.c libft/ft_memalloc.c libft/ft_memdel.c libft/ft_strnew.c libft/ft_strdel.c libft/ft_strclr.c libft/ft_putchar.c libft/ft_strpull_ptr.c libft/ft_strpull_idx.c libft/ft_putstr.c libft/ft_putchar_fd.c libft/ft_striter.c libft/ft_striteri.c libft/ft_strmap.c libft/ft_strmapi.c libft/ft_strequ.c libft/ft_strnequ.c libft/ft_strsub.c libft/ft_strjoin.c libft/ft_strtrim.c libft/ft_strsplit.c libft/ft_lstdel.c libft/ft_strchr_idx.c libft/ft_itoa.c libft/ft_pu
+ tendl.c libft/ft_putnbr.c libft/ft_putstr_fd.c libft/ft_putendl_fd.c libft/ft_strcount.c libft/ft_lstdelone.c libft/ft_putnbr_fd.c libft/ft_strrev.c libft/ft_wordlen.c libft/ft_intlen.c libft/ft_lstadd.c libft/ft_lstnew.c libft/ft_lstiter.c libft/ft_lstmap.c libft/get_next_line.c libft/ft_isspace.c  libft/ft_split.c libft/ft_intcpy.c libft/ft_atol.c libft/ft_deldouble.c libft/ft_doublesize.c libft/ft_printchardouble.c libft/ft_printintarray.c libft/ft_strmerge.c printf_src/basicchecker.c printf_src/createpadding.c printf_src/createstruc.c printf_src/destroy.c printf_src/dynamicstring.c printf_src/findhex.c printf_src/findoct.c printf_src/findops.c printf_src/findunsdigit.c printf_src/ft_itoa_base.c printf_src/ft_printf.c  printf_src/ft_uitoa.c printf_src/handlenonvalid.c printf_src/lengthmod.c printf_src/precision.c printf_src/strprocessing.c printf_src/ft_lltoa.c printf_src/wildcard.c printf_src/findwchar.c printf_src/findwstr.c printf_src/wcharsupport.c printf_src/finddigit.c prin
+ tf_src/findpointer.c printf_src/paddingsupportfunc.c printf_src/hexhash.c printf_src/overflowfunc.c printf_src/findspecifer.c printf_src/findactions_one.c printf_src/findactions_two.c  -I.includes/ -c
+ar -rc libftprintf.a *.o
+ranlib libftprintf.a
+rm -f *.o
+rm -f libftprintf.a
+gcc -c -Wall -Werror -Wextra libft/ft_atoi.c libft/ft_bzero.c libft/ft_isalnum.c libft/ft_isalpha.c libft/ft_isascii.c libft/ft_isdigit.c libft/ft_isprint.c libft/ft_memccpy.c libft/ft_memchr.c libft/ft_memcmp.c libft/ft_memcpy.c libft/ft_memmove.c libft/ft_memset.c libft/ft_strcat.c libft/ft_strchr.c libft/ft_strcmp.c libft/ft_strcpy.c libft/ft_strdup.c libft/ft_strlcat.c libft/ft_strlen.c libft/ft_strncat.c libft/ft_strncpy.c libft/ft_strrchr.c libft/ft_strstr.c libft/ft_tolower.c libft/ft_toupper.c libft/ft_strnstr.c libft/ft_strncmp.c libft/ft_memalloc.c libft/ft_memdel.c libft/ft_strnew.c libft/ft_strdel.c libft/ft_strclr.c libft/ft_putchar.c libft/ft_strpull_ptr.c libft/ft_strpull_idx.c libft/ft_putstr.c libft/ft_putchar_fd.c libft/ft_striter.c libft/ft_striteri.c libft/ft_strmap.c libft/ft_strmapi.c libft/ft_strequ.c libft/ft_strnequ.c libft/ft_strsub.c libft/ft_strjoin.c libft/ft_strtrim.c libft/ft_strsplit.c libft/ft_lstdel.c libft/ft_strchr_idx.c libft/ft_itoa.c libft/ft_pu
+ tendl.c libft/ft_putnbr.c libft/ft_putstr_fd.c libft/ft_putendl_fd.c libft/ft_strcount.c libft/ft_lstdelone.c libft/ft_putnbr_fd.c libft/ft_strrev.c libft/ft_wordlen.c libft/ft_intlen.c libft/ft_lstadd.c libft/ft_lstnew.c libft/ft_lstiter.c libft/ft_lstmap.c libft/get_next_line.c libft/ft_isspace.c  libft/ft_split.c libft/ft_intcpy.c libft/ft_atol.c libft/ft_deldouble.c libft/ft_doublesize.c libft/ft_printchardouble.c libft/ft_printintarray.c libft/ft_strmerge.c printf_src/basicchecker.c printf_src/createpadding.c printf_src/createstruc.c printf_src/destroy.c printf_src/dynamicstring.c printf_src/findhex.c printf_src/findoct.c printf_src/findops.c printf_src/findunsdigit.c printf_src/ft_itoa_base.c printf_src/ft_printf.c  printf_src/ft_uitoa.c printf_src/handlenonvalid.c printf_src/lengthmod.c printf_src/precision.c printf_src/strprocessing.c printf_src/ft_lltoa.c printf_src/wildcard.c printf_src/findwchar.c printf_src/findwstr.c printf_src/wcharsupport.c printf_src/finddigit.c prin
+ tf_src/findpointer.c printf_src/paddingsupportfunc.c printf_src/hexhash.c printf_src/overflowfunc.c printf_src/findspecifer.c printf_src/findactions_one.c printf_src/findactions_two.c  -I.includes/ -c
+ar -rc libftprintf.a *.o
+ranlib libftprintf.a
+rm -f *.o
+rm -f libftprintf.a
+gcc -c -Wall -Werror -Wextra libft/ft_atoi.c libft/ft_bzero.c libft/ft_isalnum.c libft/ft_isalpha.c libft/ft_isascii.c libft/ft_isdigit.c libft/ft_isprint.c libft/ft_memccpy.c libft/ft_memchr.c libft/ft_memcmp.c libft/ft_memcpy.c libft/ft_memmove.c libft/ft_memset.c libft/ft_strcat.c libft/ft_strchr.c libft/ft_strcmp.c libft/ft_strcpy.c libft/ft_strdup.c libft/ft_strlcat.c libft/ft_strlen.c libft/ft_strncat.c libft/ft_strncpy.c libft/ft_strrchr.c libft/ft_strstr.c libft/ft_tolower.c libft/ft_toupper.c libft/ft_strnstr.c libft/ft_strncmp.c libft/ft_memalloc.c libft/ft_memdel.c libft/ft_strnew.c libft/ft_strdel.c libft/ft_strclr.c libft/ft_putchar.c libft/ft_strpull_ptr.c libft/ft_strpull_idx.c libft/ft_putstr.c libft/ft_putchar_fd.c libft/ft_striter.c libft/ft_striteri.c libft/ft_strmap.c libft/ft_strmapi.c libft/ft_strequ.c libft/ft_strnequ.c libft/ft_strsub.c libft/ft_strjoin.c libft/ft_strtrim.c libft/ft_strsplit.c libft/ft_lstdel.c libft/ft_strchr_idx.c libft/ft_itoa.c libft/ft_pu
+ tendl.c libft/ft_putnbr.c libft/ft_putstr_fd.c libft/ft_putendl_fd.c libft/ft_strcount.c libft/ft_lstdelone.c libft/ft_putnbr_fd.c libft/ft_strrev.c libft/ft_wordlen.c libft/ft_intlen.c libft/ft_lstadd.c libft/ft_lstnew.c libft/ft_lstiter.c libft/ft_lstmap.c libft/get_next_line.c libft/ft_isspace.c  libft/ft_split.c libft/ft_intcpy.c libft/ft_atol.c libft/ft_deldouble.c libft/ft_doublesize.c libft/ft_printchardouble.c libft/ft_printintarray.c libft/ft_strmerge.c printf_src/basicchecker.c printf_src/createpadding.c printf_src/createstruc.c printf_src/destroy.c printf_src/dynamicstring.c printf_src/findhex.c printf_src/findoct.c printf_src/findops.c printf_src/findunsdigit.c printf_src/ft_itoa_base.c printf_src/ft_printf.c  printf_src/ft_uitoa.c printf_src/handlenonvalid.c printf_src/lengthmod.c printf_src/precision.c printf_src/strprocessing.c printf_src/ft_lltoa.c printf_src/wildcard.c printf_src/findwchar.c printf_src/findwstr.c printf_src/wcharsupport.c printf_src/finddigit.c prin
+ tf_src/findpointer.c printf_src/paddingsupportfunc.c printf_src/hexhash.c printf_src/overflowfunc.c printf_src/findspecifer.c printf_src/findactions_one.c printf_src/findactions_two.c  -I.includes/ -c
+ar -rc libftprintf.a *.o
+ranlib libftprintf.a
+-rw-r--r--  1 deepthought  deepthought  131896 Aug 17 08:11 libftprintf.a
+
+clang -Wall -Wextra -Werror -g3   -c -o test_a.o test_a.c
+clang -Wall -Wextra -Werror -g3   -c -o test_e.o test_e.c
+clang -Wall -Wextra -Werror -g3   -c -o test_f.o test_f.c
+clang -Wall -Wextra -Werror -g3   -c -o test_g.o test_g.c
+clang -Wall -Wextra -Werror -g3   -c -o test_l.o test_l.c
+clang -Wall -Wextra -Werror -g3   -c -o test_n.o test_n.c
+clang -Wall -Wextra -Werror -g3   -c -o test_star.o test_star.c
+clang -Wall -Wextra -Werror -g3   -c -o main.o main.c
+clang -Wall -Wextra -Werror -g3 -o test_printf -L. -lftprintf test_a.o test_e.o test_f.o test_g.o test_l.o test_n.o test_star.o main.o
+
+test_a: [ko]
+test_e: [ko]
+test_f: [ko]
+test_g: [ko]
+test_L: [ko]
+test_n: [ko]
+test_star: [ko]
+
+0/7 correct functions
+Grade: 0
+
+= Final grade: 97 ==============================================================
