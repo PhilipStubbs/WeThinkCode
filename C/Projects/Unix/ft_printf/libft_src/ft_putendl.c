@@ -1,20 +1,22 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   destroy.c                                          :+:      :+:    :+:   */
+/*   ft_putendl.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: pstubbs <pstubbs@student.42.fr>            +#+  +:+       +#+        */
+/*   By: pstubbs <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/08/03 10:18:28 by pstubbs           #+#    #+#             */
-/*   Updated: 2018/08/20 10:23:57 by pstubbs          ###   ########.fr       */
+/*   Created: 2018/05/22 08:13:38 by pstubbs           #+#    #+#             */
+/*   Updated: 2018/05/22 08:13:39 by pstubbs          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/ft_printf.h"
+#include "../includes/libft.h"
 
-void	printf_destroy(t_printf **node)
+void	ft_putendl(char const *s)
 {
-	free((*node)->output);
-	free((*node)->raw);
-	free(*node);
+	if (s != NULL)
+	{
+		ft_putstr(s);
+		ft_putchar('\n');
+	}
 }

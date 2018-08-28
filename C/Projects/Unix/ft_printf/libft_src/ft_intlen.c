@@ -1,20 +1,31 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   destroy.c                                          :+:      :+:    :+:   */
+/*   ft_intlen.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: pstubbs <pstubbs@student.42.fr>            +#+  +:+       +#+        */
+/*   By: pstubbs <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/08/03 10:18:28 by pstubbs           #+#    #+#             */
-/*   Updated: 2018/08/20 10:23:57 by pstubbs          ###   ########.fr       */
+/*   Created: 2018/05/28 08:59:02 by pstubbs           #+#    #+#             */
+/*   Updated: 2018/05/28 08:59:06 by pstubbs          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/ft_printf.h"
+#include "../includes/libft.h"
 
-void	printf_destroy(t_printf **node)
+int	ft_intlen(int n)
 {
-	free((*node)->output);
-	free((*node)->raw);
-	free(*node);
+	int	ret;
+
+	ret = 0;
+	if (n < 0)
+	{
+		n = n * 1;
+		ret++;
+	}
+	while (n)
+	{
+		n = n / 10;
+		ret++;
+	}
+	return (ret);
 }

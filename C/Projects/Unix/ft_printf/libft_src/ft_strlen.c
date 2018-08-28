@@ -1,20 +1,26 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   destroy.c                                          :+:      :+:    :+:   */
+/*   ft_strlen.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: pstubbs <pstubbs@student.42.fr>            +#+  +:+       +#+        */
+/*   By: pstubbs <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/08/03 10:18:28 by pstubbs           #+#    #+#             */
-/*   Updated: 2018/08/20 10:23:57 by pstubbs          ###   ########.fr       */
+/*   Created: 2018/05/17 08:04:52 by pstubbs           #+#    #+#             */
+/*   Updated: 2018/05/17 08:04:59 by pstubbs          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/ft_printf.h"
+#include "../includes/libft.h"
 
-void	printf_destroy(t_printf **node)
+size_t	ft_strlen(const char *str)
 {
-	free((*node)->output);
-	free((*node)->raw);
-	free(*node);
+	int		i;
+	size_t	r;
+	char	*p1;
+
+	p1 = (char*)str;
+	i = 0;
+	while (p1[i] != '\0')
+		i++;
+	return (r = i);
 }

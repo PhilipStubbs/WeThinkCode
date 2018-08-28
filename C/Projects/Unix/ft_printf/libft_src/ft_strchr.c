@@ -1,20 +1,29 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   destroy.c                                          :+:      :+:    :+:   */
+/*   ft_strchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: pstubbs <pstubbs@student.42.fr>            +#+  +:+       +#+        */
+/*   By: pstubbs <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/08/03 10:18:28 by pstubbs           #+#    #+#             */
-/*   Updated: 2018/08/20 10:23:57 by pstubbs          ###   ########.fr       */
+/*   Created: 2018/05/17 07:52:40 by pstubbs           #+#    #+#             */
+/*   Updated: 2018/05/17 07:52:45 by pstubbs          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/ft_printf.h"
+#include "../includes/libft.h"
 
-void	printf_destroy(t_printf **node)
+char	*ft_strchr(const char *str, int c)
 {
-	free((*node)->output);
-	free((*node)->raw);
-	free(*node);
+	char			*p1;
+	unsigned char	ch;
+
+	p1 = (char*)str;
+	ch = c;
+	while (*p1 != ch)
+	{
+		if (*p1 == '\0')
+			return (p1 = NULL);
+		p1++;
+	}
+	return (p1);
 }

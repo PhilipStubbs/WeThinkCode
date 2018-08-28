@@ -1,20 +1,26 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   destroy.c                                          :+:      :+:    :+:   */
+/*   ft_lstdel.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: pstubbs <pstubbs@student.42.fr>            +#+  +:+       +#+        */
+/*   By: pstubbs <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/08/03 10:18:28 by pstubbs           #+#    #+#             */
-/*   Updated: 2018/08/20 10:23:57 by pstubbs          ###   ########.fr       */
+/*   Created: 2018/05/28 10:53:38 by pstubbs           #+#    #+#             */
+/*   Updated: 2018/05/28 10:53:39 by pstubbs          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/ft_printf.h"
+#include "../includes/libft.h"
 
-void	printf_destroy(t_printf **node)
+void	ft_lstdel(t_list **alst, void (*del)(void *, size_t))
 {
-	free((*node)->output);
-	free((*node)->raw);
-	free(*node);
+	if (alst && del)
+	{
+		while ((*alst) != NULL)
+		{
+			del((*alst)->content, (*alst)->content_size);
+			free(*alst);
+			(*alst) = (*alst)->next;
+		}
+	}
 }

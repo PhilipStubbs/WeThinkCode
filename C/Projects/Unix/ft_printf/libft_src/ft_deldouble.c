@@ -1,20 +1,29 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   destroy.c                                          :+:      :+:    :+:   */
+/*   ft_deldouble.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: pstubbs <pstubbs@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/08/03 10:18:28 by pstubbs           #+#    #+#             */
-/*   Updated: 2018/08/20 10:23:57 by pstubbs          ###   ########.fr       */
+/*   Created: 2018/07/24 09:56:32 by pstubbs           #+#    #+#             */
+/*   Updated: 2018/08/02 13:02:33 by pstubbs          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/ft_printf.h"
+#include "../includes/libft.h"
 
-void	printf_destroy(t_printf **node)
+void	ft_deldouble(char ***str)
 {
-	free((*node)->output);
-	free((*node)->raw);
-	free(*node);
+	int	i;
+
+	i = 0;
+	while (str[0][i] != NULL)
+	{
+		i++;
+	}
+	while (i >= 0)
+	{
+		free(str[0][i--]);
+	}
+	free(*str);
 }

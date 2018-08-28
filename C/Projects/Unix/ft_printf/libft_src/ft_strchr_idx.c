@@ -1,20 +1,31 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   destroy.c                                          :+:      :+:    :+:   */
+/*   ft_strchr_idx.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: pstubbs <pstubbs@student.42.fr>            +#+  +:+       +#+        */
+/*   By: pstubbs <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/08/03 10:18:28 by pstubbs           #+#    #+#             */
-/*   Updated: 2018/08/20 10:23:57 by pstubbs          ###   ########.fr       */
+/*   Created: 2018/06/01 07:10:58 by pstubbs           #+#    #+#             */
+/*   Updated: 2018/06/01 07:11:00 by pstubbs          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/ft_printf.h"
+#include "../includes/libft.h"
 
-void	printf_destroy(t_printf **node)
+int	ft_strchr_idx(const char *str, int c)
 {
-	free((*node)->output);
-	free((*node)->raw);
-	free(*node);
+	char			*p1;
+	unsigned char	ch;
+	int				i;
+
+	i = 0;
+	p1 = (char*)str;
+	ch = c;
+	while (p1[i] != ch)
+	{
+		if (p1[i] == '\0')
+			return (-1);
+		i++;
+	}
+	return (i);
 }
