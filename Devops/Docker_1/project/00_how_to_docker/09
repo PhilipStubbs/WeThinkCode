@@ -1,0 +1,9 @@
+# docker pull debian
+
+docker run --name 09 -it --rm debian /bin/bash
+
+apt-get update
+apt-get install build-essential
+apt-get install vim
+apt install wget -y
+apt-get install git
